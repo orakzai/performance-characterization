@@ -12,8 +12,11 @@ totalTests=$tests*$runsPerTest
 FLINK_DIR=~/flink
 RESULTS_DIR=~/scripts/results
 HADOOP_DIR=~/hadoop/bin/
-APP_NAME="default"
-CORUNNER="default"
+
+FRAMEWORK="flink"   #flink, spark
+APP_NAME="default" #wordcount, terasort
+CORUNNER="default" #cmbw, cstream, clbm, clibquantum,cpov, comnet
+
 
 if [ "$option" == "w" ];    
 then 
@@ -44,7 +47,9 @@ then
 fi	
 
 
-RESULTS_FILE="${RESULTS_DIR}/flink_${APP_NAME}.txt"
+RESULTS_FILE="${RESULTS_DIR}/${FRAMEWORK}_${APP_NAME}.txt"
+RESULTS_CSV="${RESULTS_DIR}/results.csv"
+
 CORUNNER="${CORUNNER}.sh"
 
  declare -A runtime
@@ -68,23 +73,23 @@ $HADOOP_DIR/hadoop fs -rm -r  $outputDir/*
 echo "Running Application on Flink"
 for (( i=0; i<$totalTests; i++))
 do
-    if (($i/$runsPerTest == 0))
+    if (($i%$runsPerTest == 0))
     then
         #run normally no interference	
         echo "No interference"
         ./$CORUNNER
         ssh orak@sky2.it.kth.se 'bash -s'  < $CORUNNER 
-    elif (($i/$runsPerTest == 1))
+    elif (($i%$runsPerTest == 1))
     then
         #interference on bw
         ./$CORUNNER b
         ssh orak@sky2.it.kth.se 'bash -s'  < $CORUNNER b
-    elif (($i/$runsPerTest == 2))
+    elif (($i%$runsPerTest == 2))
     then
         #interference on cache
         ./$CORUNNER c
         ssh orak@sky2.it.kth.se 'bash -s'  < $CORUNNER c
-    elif (($i/$runsPerTest == 3))
+    elif (($i%$runsPerTest == 3))
     then
         #interference on bw + cache
         ./$CORUNNER a
@@ -119,24 +124,25 @@ avgCacheBw=0.0
 
 for ((r=0; r<$totalTests; r++))
 do
-     if (($r/$runsPerTest == 0))
+     if (($r%$runsPerTest == 0))
     then
         #run normally no interference	
         avgNormal=$(bc <<< "scale=6;$avgNormal + ${runtime[$r]}")
-    elif (($r/$runsPerTest == 1))
+    elif (($r%$runsPerTest == 1))
     then
         #interference on bw
         avgBw=$(bc <<< "scale=6;$avgBw + ${runtime[$r]}")
-    elif (($r/$runsPerTest == 2))
+    elif (($r%$runsPerTest == 2))
     then
         #interference on cache
         avgCache=$(bc <<< "scale=6;$avgCache + ${runtime[$r]}")
-    elif (($r/$runsPerTest == 3))
+    elif (($r%$runsPerTest == 3))
     then
         #interference on bw + cache
         avgCacheBw=$(bc <<< "scale=6;$avgCacheBw + ${runtime[$r]}")
     fi
 
+    printf "${FRAMEWORK},${APP_NAME},${CORUNNER},%.6f \n" ${runtime[$r]}   >> $RESULTS_CSV
   printf "Execution time $r: %.6f seconds\n" ${runtime[$r]} >> $RESULTS_FILE
 done
 

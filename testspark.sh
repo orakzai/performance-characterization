@@ -7,7 +7,7 @@ option=$1
 option2=$2
 
 tests=4
-runsPerTest=3 #change parameter to increase the runs
+runsPerTest=1 #change parameter to increase the runs
 totalTests=$tests*$runsPerTest
 SPARK_DIR=~/spark/spark-1.5.2-bin-hadoop2.6
 RESULTS_DIR=~/scripts/results
