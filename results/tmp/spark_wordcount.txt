@@ -1,0 +1,162 @@
+Execution time 0: 108.621281 seconds
+Execution time 1: 108.672610 seconds
+Execution time 2: 107.672264 seconds
+Execution time 3: 83.539419 seconds
+Execution time 4: 82.584069 seconds
+Execution time 5: 83.783625 seconds
+Execution time 6: 78.407660 seconds
+Execution time 7: 82.920316 seconds
+Execution time 8: 80.526307 seconds
+Execution time 9: 83.362179 seconds
+Execution time 10: 81.646649 seconds
+Execution time 11: 82.643400 seconds
+==========================
+Timestamp: [Thu Dec 10 15:48:54 CET 2015]
+==========================
+Average Execution Times (wordcount) (cmbw.sh):
+Normal:	 108.32 seconds
+BW:	 83.30 seconds
+Cache:	 80.62 seconds
+CacheBW:	82.55 seconds
+==========================
+Average Degradation (wordcount) (cmbw.sh):
+Normal:	 0.00 %
+BW:	 -23 %
+Cache:	 -25.58 %
+CacheBW:	-23.79 %
+==========================
+Execution time 0: 107.695226 seconds
+Execution time 1: 107.835237 seconds
+Execution time 2: 109.001156 seconds
+Execution time 3: 65.997991 seconds
+Execution time 4: 65.061225 seconds
+Execution time 5: 65.603612 seconds
+Execution time 6: 85.800814 seconds
+Execution time 7: 79.500656 seconds
+Execution time 8: 80.208553 seconds
+Execution time 9: 80.995240 seconds
+Execution time 10: 81.976590 seconds
+Execution time 11: 86.774342 seconds
+==========================
+Timestamp: [Thu Dec 10 16:05:59 CET 2015]
+==========================
+Average Execution Times (wordcount) (clbm.sh):
+Normal:	 108.18 seconds
+BW:	 65.55 seconds
+Cache:	 81.84 seconds
+CacheBW:	83.25 seconds
+==========================
+Average Degradation (wordcount) (clbm.sh):
+Normal:	 0.00 %
+BW:	 -39 %
+Cache:	 -24.35 %
+CacheBW:	-23.04 %
+==========================
+Execution time 0: 65.766610 seconds
+Execution time 1: 108.560808 seconds
+Execution time 2: 110.005617 seconds
+Execution time 3: 65.960921 seconds
+Execution time 4: 65.997101 seconds
+Execution time 5: 64.923469 seconds
+Execution time 6: 81.624286 seconds
+Execution time 7: 79.535283 seconds
+Execution time 8: 80.388530 seconds
+Execution time 9: 80.261535 seconds
+Execution time 10: 80.644749 seconds
+Execution time 11: 80.957970 seconds
+==========================
+Timestamp: [Thu Dec 10 16:22:13 CET 2015]
+==========================
+Average Execution Times (wordcount) (clibquantum.sh):
+Normal:	 94.78 seconds
+BW:	 65.63 seconds
+Cache:	 80.52 seconds
+CacheBW:	80.62 seconds
+==========================
+Average Degradation (wordcount) (clibquantum.sh):
+Normal:	 0.00 %
+BW:	 -31 %
+Cache:	 -15.05 %
+CacheBW:	-14.94 %
+==========================
+Execution time 0: 64.921558 seconds
+Execution time 1: 107.778355 seconds
+Execution time 2: 106.772165 seconds
+Execution time 3: 64.654515 seconds
+Execution time 4: 64.479628 seconds
+Execution time 5: 63.412476 seconds
+Execution time 6: 65.218013 seconds
+Execution time 7: 64.195395 seconds
+Execution time 8: 64.199064 seconds
+Execution time 9: 65.354118 seconds
+Execution time 10: 65.743094 seconds
+Execution time 11: 64.808251 seconds
+==========================
+Timestamp: [Thu Dec 10 16:36:44 CET 2015]
+==========================
+Average Execution Times (wordcount) (cpov.sh):
+Normal:	 93.16 seconds
+BW:	 64.18 seconds
+Cache:	 64.54 seconds
+CacheBW:	65.30 seconds
+==========================
+Average Degradation (wordcount) (cpov.sh):
+Normal:	 0.00 %
+BW:	 -31 %
+Cache:	 -30.72 %
+CacheBW:	-29.90 %
+==========================
+Execution time 0: 65.087482 seconds
+Execution time 1: 112.780116 seconds
+Execution time 2: 107.428873 seconds
+Execution time 3: 65.000358 seconds
+Execution time 4: 63.747959 seconds
+Execution time 5: 64.330319 seconds
+Execution time 6: 73.105897 seconds
+Execution time 7: 71.905380 seconds
+Execution time 8: 72.109133 seconds
+Execution time 9: 73.974411 seconds
+Execution time 10: 75.253537 seconds
+Execution time 11: 74.027944 seconds
+==========================
+Timestamp: [Thu Dec 10 16:52:12 CET 2015]
+==========================
+Average Execution Times (wordcount) (comnet.sh):
+Normal:	 95.10 seconds
+BW:	 64.36 seconds
+Cache:	 72.37 seconds
+CacheBW:	74.42 seconds
+==========================
+Average Degradation (wordcount) (comnet.sh):
+Normal:	 0.00 %
+BW:	 -32 %
+Cache:	 -23.90 %
+CacheBW:	-21.75 %
+==========================
+Execution time 0: 177.480101 seconds
+Execution time 1: 176.673314 seconds
+Execution time 2: 175.077285 seconds
+Execution time 3: 177.042388 seconds
+Execution time 4: 175.113158 seconds
+Execution time 5: 176.691541 seconds
+Execution time 6: 176.350347 seconds
+Execution time 7: 178.353787 seconds
+Execution time 8: 173.907698 seconds
+Execution time 9: 176.600835 seconds
+Execution time 10: 174.095156 seconds
+Execution time 11: 180.010326 seconds
+==========================
+Timestamp: [Thu Dec 10 20:12:29 CET 2015]
+==========================
+Average Execution Times (wordcount) (comnet.sh):
+Normal:	 176.41 seconds
+BW:	 176.28 seconds
+Cache:	 176.20 seconds
+CacheBW:	176.90 seconds
+==========================
+Average Degradation (wordcount) (comnet.sh):
+Normal:	 0.00 %
+BW:	 -0 %
+Cache:	 -0.12 %
+CacheBW:	0.28 %
+==========================

@@ -1,0 +1,135 @@
+Execution time 0: 64.619522 seconds
+Execution time 1: 105.023267 seconds
+Execution time 2: 104.578502 seconds
+Execution time 3: 82.782013 seconds
+Execution time 4: 86.898266 seconds
+Execution time 5: 80.256138 seconds
+Execution time 6: 80.260683 seconds
+Execution time 7: 79.973200 seconds
+Execution time 8: 78.257548 seconds
+Execution time 9: 83.395525 seconds
+Execution time 10: 84.241311 seconds
+Execution time 11: 86.486177 seconds
+==========================
+Timestamp: [Thu Dec 10 17:10:26 CET 2015]
+==========================
+Average Execution Times (terasort) (cmbw.sh):
+Normal:	 91.41 seconds
+BW:	 83.31 seconds
+Cache:	 79.50 seconds
+CacheBW:	84.71 seconds
+==========================
+Average Degradation (terasort) (cmbw.sh):
+Normal:	 0.00 %
+BW:	 -9 %
+Cache:	 -13.03 %
+CacheBW:	-7.33 %
+==========================
+Execution time 0: 99.117174 seconds
+Execution time 1: 108.028810 seconds
+Execution time 2: 104.491744 seconds
+Execution time 3: 67.338518 seconds
+Execution time 4: 65.085445 seconds
+Execution time 5: 68.238674 seconds
+Execution time 6: 81.762167 seconds
+Execution time 7: 78.522526 seconds
+Execution time 8: 81.412439 seconds
+Execution time 9: 81.415628 seconds
+Execution time 10: 82.357973 seconds
+Execution time 11: 80.196326 seconds
+==========================
+Timestamp: [Thu Dec 10 17:27:14 CET 2015]
+==========================
+Average Execution Times (terasort) (clbm.sh):
+Normal:	 103.88 seconds
+BW:	 66.89 seconds
+Cache:	 80.57 seconds
+CacheBW:	81.32 seconds
+==========================
+Average Degradation (terasort) (clbm.sh):
+Normal:	 0.00 %
+BW:	 -36 %
+Cache:	 -22.44 %
+CacheBW:	-21.71 %
+==========================
+Execution time 0: 63.494374 seconds
+Execution time 1: 99.088763 seconds
+Execution time 2: 76.926097 seconds
+Execution time 3: 67.278366 seconds
+Execution time 4: 65.446342 seconds
+Execution time 5: 63.925410 seconds
+Execution time 6: 79.434618 seconds
+Execution time 7: 79.884340 seconds
+Execution time 8: 79.190449 seconds
+Execution time 9: 82.449210 seconds
+Execution time 10: 79.578426 seconds
+Execution time 11: 78.395460 seconds
+==========================
+Timestamp: [Thu Dec 10 17:42:38 CET 2015]
+==========================
+Average Execution Times (terasort) (clibquantum.sh):
+Normal:	 79.84 seconds
+BW:	 65.55 seconds
+Cache:	 79.50 seconds
+CacheBW:	80.14 seconds
+==========================
+Average Degradation (terasort) (clibquantum.sh):
+Normal:	 0.00 %
+BW:	 -18 %
+Cache:	 -0.42 %
+CacheBW:	0.38 %
+==========================
+Execution time 0: 63.173490 seconds
+Execution time 1: 101.436933 seconds
+Execution time 2: 78.377443 seconds
+Execution time 3: 65.013783 seconds
+Execution time 4: 65.829946 seconds
+Execution time 5: 64.177385 seconds
+Execution time 6: 62.123391 seconds
+Execution time 7: 64.363161 seconds
+Execution time 8: 63.056618 seconds
+Execution time 9: 62.881627 seconds
+Execution time 10: 63.338033 seconds
+Execution time 11: 65.930088 seconds
+==========================
+Timestamp: [Thu Dec 10 17:56:27 CET 2015]
+==========================
+Average Execution Times (terasort) (cpov.sh):
+Normal:	 81.00 seconds
+BW:	 65.01 seconds
+Cache:	 63.18 seconds
+CacheBW:	64.05 seconds
+==========================
+Average Degradation (terasort) (cpov.sh):
+Normal:	 0.00 %
+BW:	 -20 %
+Cache:	 -21.99 %
+CacheBW:	-20.92 %
+==========================
+Execution time 0: 63.312737 seconds
+Execution time 1: 100.342537 seconds
+Execution time 2: 77.710830 seconds
+Execution time 3: 64.181029 seconds
+Execution time 4: 63.167063 seconds
+Execution time 5: 63.168528 seconds
+Execution time 6: 71.066140 seconds
+Execution time 7: 68.181735 seconds
+Execution time 8: 71.246731 seconds
+Execution time 9: 72.176916 seconds
+Execution time 10: 72.520236 seconds
+Execution time 11: 71.993661 seconds
+==========================
+Timestamp: [Thu Dec 10 18:10:56 CET 2015]
+==========================
+Average Execution Times (terasort) (comnet.sh):
+Normal:	 80.46 seconds
+BW:	 63.51 seconds
+Cache:	 70.16 seconds
+CacheBW:	72.23 seconds
+==========================
+Average Degradation (terasort) (comnet.sh):
+Normal:	 0.00 %
+BW:	 -21 %
+Cache:	 -12.79 %
+CacheBW:	-10.22 %
+==========================

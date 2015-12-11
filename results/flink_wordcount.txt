@@ -1,0 +1,95 @@
+Execution time 0: 266.617711 seconds
+Execution time 1: 605.929063 seconds
+Execution time 2: 310.315726 seconds
+Execution time 3: 206.533127 seconds
+==========================
+Timestamp: [Fri Dec 11 10:36:37 CET 2015]
+==========================
+Average Execution Times (wordcount) (cmbw.sh):
+Normal:	 266.62 seconds
+BW:	 605.93 seconds
+Cache:	 310.32 seconds
+CacheBW:	206.53 seconds
+==========================
+Average Degradation (wordcount) (cmbw.sh):
+Normal:	 0.00 %
+BW:	 127 %
+Cache:	 16.39 %
+CacheBW:	-22.54 %
+==========================
+Execution time 0: 179.770478 seconds
+Execution time 1: 190.137359 seconds
+Execution time 2: 219.911621 seconds
+Execution time 3: 233.279809 seconds
+==========================
+Timestamp: [Fri Dec 11 10:50:27 CET 2015]
+==========================
+Average Execution Times (wordcount) (clbm.sh):
+Normal:	 179.77 seconds
+BW:	 190.14 seconds
+Cache:	 219.91 seconds
+CacheBW:	233.28 seconds
+==========================
+Average Degradation (wordcount) (clbm.sh):
+Normal:	 0.00 %
+BW:	 6 %
+Cache:	 22.33 %
+CacheBW:	29.77 %
+==========================
+Execution time 0: 180.480467 seconds
+Execution time 1: 188.213213 seconds
+Execution time 2: 195.528153 seconds
+Execution time 3: 209.059818 seconds
+==========================
+Timestamp: [Fri Dec 11 11:03:27 CET 2015]
+==========================
+Average Execution Times (wordcount) (clibquantum.sh):
+Normal:	 180.48 seconds
+BW:	 188.21 seconds
+Cache:	 195.53 seconds
+CacheBW:	209.06 seconds
+==========================
+Average Degradation (wordcount) (clibquantum.sh):
+Normal:	 0.00 %
+BW:	 4 %
+Cache:	 8.34 %
+CacheBW:	15.84 %
+==========================
+Execution time 0: 181.416118 seconds
+Execution time 1: 185.684881 seconds
+Execution time 2: 182.911294 seconds
+Execution time 3: 183.086852 seconds
+==========================
+Timestamp: [Fri Dec 11 11:15:47 CET 2015]
+==========================
+Average Execution Times (wordcount) (cpov.sh):
+Normal:	 181.42 seconds
+BW:	 185.68 seconds
+Cache:	 182.91 seconds
+CacheBW:	183.09 seconds
+==========================
+Average Degradation (wordcount) (cpov.sh):
+Normal:	 0.00 %
+BW:	 2 %
+Cache:	 0.82 %
+CacheBW:	0.92 %
+==========================
+Execution time 0: 179.938934 seconds
+Execution time 1: 182.652659 seconds
+Execution time 2: 197.366776 seconds
+Execution time 3: 193.204839 seconds
+==========================
+Timestamp: [Fri Dec 11 11:28:27 CET 2015]
+==========================
+Average Execution Times (wordcount) (comnet.sh):
+Normal:	 179.94 seconds
+BW:	 182.65 seconds
+Cache:	 197.37 seconds
+CacheBW:	193.20 seconds
+==========================
+Average Degradation (wordcount) (comnet.sh):
+Normal:	 0.00 %
+BW:	 2 %
+Cache:	 9.69 %
+CacheBW:	7.37 %
+==========================

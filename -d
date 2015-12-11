@@ -1,0 +1,6 @@
+      lxc-start 1448483854.837 ERROR    lxc_start - start.c:must_drop_cap_sys_boot:554 - failed to clone (0x20000011): Operation not permitted
+      lxc-start 1448483854.842 ERROR    lxc_namespace - namespace.c:lxc_clone:67 - failed to clone (0x6c020000): Operation not permitted
+      lxc-start 1448483854.842 ERROR    lxc_start - start.c:lxc_spawn:894 - Operation not permitted - failed to fork into a new namespace
+      lxc-start 1448483854.842 ERROR    lxc_start - start.c:__lxc_start:1080 - failed to spawn 'mbw-container1'
+      lxc-start 1448483854.846 ERROR    lxc_start_ui - lxc_start.c:main:342 - The container failed to start.
+      lxc-start 1448483854.846 ERROR    lxc_start_ui - lxc_start.c:main:346 - Additional information can be obtained by setting the --logfile and --logpriority options.
