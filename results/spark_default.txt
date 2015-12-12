@@ -1,0 +1,27 @@
+spark,default,default.sh,no 		 - Execution time 0: 0.001290 seconds
+spark,default,default.sh,bw 		 - Execution time 1: 0.001256 seconds
+spark,default,default.sh,cache 		 - Execution time 2: 0.001325 seconds
+spark,default,default.sh,bwcache 		 - Execution time 3: 0.001300 seconds
+spark,default,default.sh,no 		 - Execution time 4: 0.001299 seconds
+spark,default,default.sh,bw 		 - Execution time 5: 0.001255 seconds
+spark,default,default.sh,cache 		 - Execution time 6: 0.001325 seconds
+spark,default,default.sh,bwcache 		 - Execution time 7: 0.001334 seconds
+spark,default,default.sh,no 		 - Execution time 8: 0.001274 seconds
+spark,default,default.sh,bw 		 - Execution time 9: 0.001250 seconds
+spark,default,default.sh,cache 		 - Execution time 10: 0.001307 seconds
+spark,default,default.sh,bwcache 		 - Execution time 11: 0.001271 seconds
+==========================
+Timestamp: [Sat Dec 12 15:08:09 CET 2015]
+==========================
+Average Execution Times (default) (default.sh):
+Normal:	 0.00 seconds
+BW:	 0.00 seconds
+Cache:	 0.00 seconds
+CacheBW:	0.00 seconds
+==========================
+Average Degradation (default) (default.sh):
+Normal:	 0.00 %
+BW:	 -3 %
+Cache:	 2.49 %
+CacheBW:	1.09 %
+==========================

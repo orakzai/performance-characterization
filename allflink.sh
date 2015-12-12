@@ -1,21 +1,21 @@
 #!/bin/bash
 
 
-./testflink.sh w m 
-./testflink.sh w l
-./testflink.sh w q
-./testflink.sh w p
-./testflink.sh w o
-#./testflink.sh w s
+#./testboth.sh w m f 
+#./testboth.sh w l f
+#./testboth.sh w q f
+#./testboth.sh w p f
+#./testboth.sh w o f
+#./testboth.sh w s f
 
 
 
-./testflink.sh t m 
-./testflink.sh t l
-./testflink.sh t q
-./testflink.sh t p
-./testflink.sh t o
-#./testflink.sh t s
+#./testboth.sh t m f
+#./testboth.sh t l f
+#./testboth.sh t q f
+#./testboth.sh t p f
+./testboth.sh t o f
+#./testboth.sh t s f
 
 
 

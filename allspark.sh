@@ -1,21 +1,21 @@
 #!/bin/bash
 
 
-./testspark.sh w m 
-./testspark.sh w l
-./testspark.sh w q
-./testspark.sh w p
-./testspark.sh w o
-#./testspark.sh w s
+./testboth.sh w m s 
+./testboth.sh w l s
+./testboth.sh w q s
+./testboth.sh w p s
+./testboth.sh w o s
+#./testboth.sh w s s
 
 
 
-./testspark.sh t m 
-./testspark.sh t l
-./testspark.sh t q
-./testspark.sh t p
-./testspark.sh t o
-#./testspark.sh t s
+./testboth.sh t m s
+./testboth.sh t l s
+./testboth.sh t q s
+./testboth.sh t p s
+./testboth.sh t o s
+#./testboth.sh t s s
 
 
 

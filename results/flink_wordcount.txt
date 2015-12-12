@@ -1,95 +1,135 @@
-Execution time 0: 266.617711 seconds
-Execution time 1: 605.929063 seconds
-Execution time 2: 310.315726 seconds
-Execution time 3: 206.533127 seconds
+flink,wordcount,cmbw.sh,no 	 - Execution time 0: 187.635223 seconds
+flink,wordcount,cmbw.sh,bw 	 - Execution time 1: 214.647584 seconds
+flink,wordcount,cmbw.sh,cache 	 - Execution time 2: 197.823929 seconds
+flink,wordcount,cmbw.sh,bwcache 	 - Execution time 3: 213.581764 seconds
+flink,wordcount,cmbw.sh,no 	 - Execution time 4: 184.734945 seconds
+flink,wordcount,cmbw.sh,bw 	 - Execution time 5: 209.291563 seconds
+flink,wordcount,cmbw.sh,cache 	 - Execution time 6: 213.622063 seconds
+flink,wordcount,cmbw.sh,bwcache 	 - Execution time 7: 208.031642 seconds
+flink,wordcount,cmbw.sh,no 	 - Execution time 8: 184.151222 seconds
+flink,wordcount,cmbw.sh,bw 	 - Execution time 9: 208.567818 seconds
+flink,wordcount,cmbw.sh,cache 	 - Execution time 10: 196.026568 seconds
+flink,wordcount,cmbw.sh,bwcache 	 - Execution time 11: 208.781674 seconds
 ==========================
-Timestamp: [Fri Dec 11 10:36:37 CET 2015]
+Timestamp: [Fri Dec 11 14:58:56 CET 2015]
 ==========================
 Average Execution Times (wordcount) (cmbw.sh):
-Normal:	 266.62 seconds
-BW:	 605.93 seconds
-Cache:	 310.32 seconds
-CacheBW:	206.53 seconds
+Normal:	 185.51 seconds
+BW:	 210.84 seconds
+Cache:	 202.49 seconds
+CacheBW:	210.13 seconds
 ==========================
 Average Degradation (wordcount) (cmbw.sh):
 Normal:	 0.00 %
-BW:	 127 %
-Cache:	 16.39 %
-CacheBW:	-22.54 %
+BW:	 14 %
+Cache:	 9.16 %
+CacheBW:	13.27 %
 ==========================
-Execution time 0: 179.770478 seconds
-Execution time 1: 190.137359 seconds
-Execution time 2: 219.911621 seconds
-Execution time 3: 233.279809 seconds
+flink,wordcount,clbm.sh,no 	 - Execution time 0: 188.607565 seconds
+flink,wordcount,clbm.sh,bw 	 - Execution time 1: 194.226453 seconds
+flink,wordcount,clbm.sh,cache 	 - Execution time 2: 205.723031 seconds
+flink,wordcount,clbm.sh,bwcache 	 - Execution time 3: 217.367202 seconds
+flink,wordcount,clbm.sh,no 	 - Execution time 4: 184.681395 seconds
+flink,wordcount,clbm.sh,bw 	 - Execution time 5: 192.965450 seconds
+flink,wordcount,clbm.sh,cache 	 - Execution time 6: 208.316532 seconds
+flink,wordcount,clbm.sh,bwcache 	 - Execution time 7: 218.044307 seconds
+flink,wordcount,clbm.sh,no 	 - Execution time 8: 189.612770 seconds
+flink,wordcount,clbm.sh,bw 	 - Execution time 9: 188.248444 seconds
+flink,wordcount,clbm.sh,cache 	 - Execution time 10: 209.220628 seconds
+flink,wordcount,clbm.sh,bwcache 	 - Execution time 11: 226.979790 seconds
 ==========================
-Timestamp: [Fri Dec 11 10:50:27 CET 2015]
+Timestamp: [Fri Dec 11 15:39:34 CET 2015]
 ==========================
 Average Execution Times (wordcount) (clbm.sh):
-Normal:	 179.77 seconds
-BW:	 190.14 seconds
-Cache:	 219.91 seconds
-CacheBW:	233.28 seconds
+Normal:	 187.63 seconds
+BW:	 191.81 seconds
+Cache:	 207.75 seconds
+CacheBW:	220.80 seconds
 ==========================
 Average Degradation (wordcount) (clbm.sh):
 Normal:	 0.00 %
-BW:	 6 %
-Cache:	 22.33 %
-CacheBW:	29.77 %
+BW:	 2 %
+Cache:	 10.72 %
+CacheBW:	17.67 %
 ==========================
-Execution time 0: 180.480467 seconds
-Execution time 1: 188.213213 seconds
-Execution time 2: 195.528153 seconds
-Execution time 3: 209.059818 seconds
+flink,wordcount,clibquantum.sh,no 	 - Execution time 0: 186.716802 seconds
+flink,wordcount,clibquantum.sh,bw 	 - Execution time 1: 185.830307 seconds
+flink,wordcount,clibquantum.sh,cache 	 - Execution time 2: 211.279482 seconds
+flink,wordcount,clibquantum.sh,bwcache 	 - Execution time 3: 213.104354 seconds
+flink,wordcount,clibquantum.sh,no 	 - Execution time 4: 184.218667 seconds
+flink,wordcount,clibquantum.sh,bw 	 - Execution time 5: 183.958316 seconds
+flink,wordcount,clibquantum.sh,cache 	 - Execution time 6: 206.668846 seconds
+flink,wordcount,clibquantum.sh,bwcache 	 - Execution time 7: 214.838256 seconds
+flink,wordcount,clibquantum.sh,no 	 - Execution time 8: 184.590646 seconds
+flink,wordcount,clibquantum.sh,bw 	 - Execution time 9: 191.112359 seconds
+flink,wordcount,clibquantum.sh,cache 	 - Execution time 10: 206.145865 seconds
+flink,wordcount,clibquantum.sh,bwcache 	 - Execution time 11: 221.856157 seconds
 ==========================
-Timestamp: [Fri Dec 11 11:03:27 CET 2015]
+Timestamp: [Fri Dec 11 16:19:39 CET 2015]
 ==========================
 Average Execution Times (wordcount) (clibquantum.sh):
-Normal:	 180.48 seconds
-BW:	 188.21 seconds
-Cache:	 195.53 seconds
-CacheBW:	209.06 seconds
+Normal:	 185.18 seconds
+BW:	 186.97 seconds
+Cache:	 208.03 seconds
+CacheBW:	216.60 seconds
 ==========================
 Average Degradation (wordcount) (clibquantum.sh):
 Normal:	 0.00 %
-BW:	 4 %
-Cache:	 8.34 %
-CacheBW:	15.84 %
+BW:	 1 %
+Cache:	 12.34 %
+CacheBW:	16.97 %
 ==========================
-Execution time 0: 181.416118 seconds
-Execution time 1: 185.684881 seconds
-Execution time 2: 182.911294 seconds
-Execution time 3: 183.086852 seconds
+flink,wordcount,cpov.sh,no 	 - Execution time 0: 184.234210 seconds
+flink,wordcount,cpov.sh,bw 	 - Execution time 1: 185.419879 seconds
+flink,wordcount,cpov.sh,cache 	 - Execution time 2: 183.659078 seconds
+flink,wordcount,cpov.sh,bwcache 	 - Execution time 3: 185.020235 seconds
+flink,wordcount,cpov.sh,no 	 - Execution time 4: 187.806646 seconds
+flink,wordcount,cpov.sh,bw 	 - Execution time 5: 184.007080 seconds
+flink,wordcount,cpov.sh,cache 	 - Execution time 6: 185.048429 seconds
+flink,wordcount,cpov.sh,bwcache 	 - Execution time 7: 184.823668 seconds
+flink,wordcount,cpov.sh,no 	 - Execution time 8: 184.323768 seconds
+flink,wordcount,cpov.sh,bw 	 - Execution time 9: 187.878641 seconds
+flink,wordcount,cpov.sh,cache 	 - Execution time 10: 185.541290 seconds
+flink,wordcount,cpov.sh,bwcache 	 - Execution time 11: 188.730932 seconds
 ==========================
-Timestamp: [Fri Dec 11 11:15:47 CET 2015]
+Timestamp: [Fri Dec 11 16:57:00 CET 2015]
 ==========================
 Average Execution Times (wordcount) (cpov.sh):
-Normal:	 181.42 seconds
-BW:	 185.68 seconds
-Cache:	 182.91 seconds
-CacheBW:	183.09 seconds
+Normal:	 185.45 seconds
+BW:	 185.77 seconds
+Cache:	 184.75 seconds
+CacheBW:	186.19 seconds
 ==========================
 Average Degradation (wordcount) (cpov.sh):
 Normal:	 0.00 %
-BW:	 2 %
-Cache:	 0.82 %
-CacheBW:	0.92 %
+BW:	 0 %
+Cache:	 -0.38 %
+CacheBW:	0.40 %
 ==========================
-Execution time 0: 179.938934 seconds
-Execution time 1: 182.652659 seconds
-Execution time 2: 197.366776 seconds
-Execution time 3: 193.204839 seconds
+flink,wordcount,comnet.sh,no 	 - Execution time 0: 185.895403 seconds
+flink,wordcount,comnet.sh,bw 	 - Execution time 1: 188.234814 seconds
+flink,wordcount,comnet.sh,cache 	 - Execution time 2: 203.848539 seconds
+flink,wordcount,comnet.sh,bwcache 	 - Execution time 3: 203.605808 seconds
+flink,wordcount,comnet.sh,no 	 - Execution time 4: 189.404829 seconds
+flink,wordcount,comnet.sh,bw 	 - Execution time 5: 184.070814 seconds
+flink,wordcount,comnet.sh,cache 	 - Execution time 6: 195.581871 seconds
+flink,wordcount,comnet.sh,bwcache 	 - Execution time 7: 199.516834 seconds
+flink,wordcount,comnet.sh,no 	 - Execution time 8: 183.732379 seconds
+flink,wordcount,comnet.sh,bw 	 - Execution time 9: 187.338527 seconds
+flink,wordcount,comnet.sh,cache 	 - Execution time 10: 194.847298 seconds
+flink,wordcount,comnet.sh,bwcache 	 - Execution time 11: 204.974272 seconds
 ==========================
-Timestamp: [Fri Dec 11 11:28:27 CET 2015]
+Timestamp: [Fri Dec 11 17:35:56 CET 2015]
 ==========================
 Average Execution Times (wordcount) (comnet.sh):
-Normal:	 179.94 seconds
-BW:	 182.65 seconds
-Cache:	 197.37 seconds
-CacheBW:	193.20 seconds
+Normal:	 186.34 seconds
+BW:	 186.55 seconds
+Cache:	 198.09 seconds
+CacheBW:	202.70 seconds
 ==========================
 Average Degradation (wordcount) (comnet.sh):
 Normal:	 0.00 %
-BW:	 2 %
-Cache:	 9.69 %
-CacheBW:	7.37 %
+BW:	 0 %
+Cache:	 6.30 %
+CacheBW:	8.78 %
 ==========================

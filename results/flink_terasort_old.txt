@@ -1,0 +1,135 @@
+flink,terasort,cmbw.sh,no 	 - Execution time 0: 129.481377 seconds
+flink,terasort,cmbw.sh,bw 	 - Execution time 1: 150.786828 seconds
+flink,terasort,cmbw.sh,cache 	 - Execution time 2: 137.239098 seconds
+flink,terasort,cmbw.sh,bwcache 	 - Execution time 3: 138.547130 seconds
+flink,terasort,cmbw.sh,no 	 - Execution time 4: 114.351256 seconds
+flink,terasort,cmbw.sh,bw 	 - Execution time 5: 145.832241 seconds
+flink,terasort,cmbw.sh,cache 	 - Execution time 6: 133.983383 seconds
+flink,terasort,cmbw.sh,bwcache 	 - Execution time 7: 156.226384 seconds
+flink,terasort,cmbw.sh,no 	 - Execution time 8: 120.605486 seconds
+flink,terasort,cmbw.sh,bw 	 - Execution time 9: 139.090617 seconds
+flink,terasort,cmbw.sh,cache 	 - Execution time 10: 111.554037 seconds
+flink,terasort,cmbw.sh,bwcache 	 - Execution time 11: 234.614922 seconds
+==========================
+Timestamp: [Fri Dec 11 18:05:54 CET 2015]
+==========================
+Average Execution Times (terasort) (cmbw.sh):
+Normal:	 121.48 seconds
+BW:	 145.24 seconds
+Cache:	 127.59 seconds
+CacheBW:	176.46 seconds
+==========================
+Average Degradation (terasort) (cmbw.sh):
+Normal:	 0.00 %
+BW:	 20 %
+Cache:	 5.03 %
+CacheBW:	45.26 %
+==========================
+flink,terasort,clbm.sh,no 		 - Execution time 0: 147.615084 seconds
+flink,terasort,clbm.sh,bw 		 - Execution time 1: 121.456602 seconds
+flink,terasort,clbm.sh,cache 		 - Execution time 2: 148.458378 seconds
+flink,terasort,clbm.sh,bwcache 		 - Execution time 3: 185.069519 seconds
+flink,terasort,clbm.sh,no 		 - Execution time 4: 116.929004 seconds
+flink,terasort,clbm.sh,bw 		 - Execution time 5: 121.365920 seconds
+flink,terasort,clbm.sh,cache 		 - Execution time 6: 147.025431 seconds
+flink,terasort,clbm.sh,bwcache 		 - Execution time 7: 165.929892 seconds
+flink,terasort,clbm.sh,no 		 - Execution time 8: 113.433407 seconds
+flink,terasort,clbm.sh,bw 		 - Execution time 9: 108.951211 seconds
+flink,terasort,clbm.sh,cache 		 - Execution time 10: 113.606131 seconds
+flink,terasort,clbm.sh,bwcache 		 - Execution time 11: 138.063789 seconds
+==========================
+Timestamp: [Fri Dec 11 18:33:17 CET 2015]
+==========================
+Average Execution Times (terasort) (clbm.sh):
+Normal:	 125.99 seconds
+BW:	 117.26 seconds
+Cache:	 136.36 seconds
+CacheBW:	163.02 seconds
+==========================
+Average Degradation (terasort) (clbm.sh):
+Normal:	 0.00 %
+BW:	 -7 %
+Cache:	 8.23 %
+CacheBW:	29.39 %
+==========================
+flink,terasort,clibquantum.sh,no 		 - Execution time 0: 125.420180 seconds
+flink,terasort,clibquantum.sh,bw 		 - Execution time 1: 141.336719 seconds
+flink,terasort,clibquantum.sh,cache 		 - Execution time 2: 145.698008 seconds
+flink,terasort,clibquantum.sh,bwcache 		 - Execution time 3: 159.871694 seconds
+flink,terasort,clibquantum.sh,no 		 - Execution time 4: 112.713340 seconds
+flink,terasort,clibquantum.sh,bw 		 - Execution time 5: 117.633241 seconds
+flink,terasort,clibquantum.sh,cache 		 - Execution time 6: 146.342429 seconds
+flink,terasort,clibquantum.sh,bwcache 		 - Execution time 7: 161.146304 seconds
+flink,terasort,clibquantum.sh,no 		 - Execution time 8: 118.197601 seconds
+flink,terasort,clibquantum.sh,bw 		 - Execution time 9: 103.898620 seconds
+flink,terasort,clibquantum.sh,cache 		 - Execution time 10: 126.652858 seconds
+flink,terasort,clibquantum.sh,bwcache 		 - Execution time 11: 146.249808 seconds
+==========================
+Timestamp: [Fri Dec 11 19:00:17 CET 2015]
+==========================
+Average Execution Times (terasort) (clibquantum.sh):
+Normal:	 118.78 seconds
+BW:	 120.96 seconds
+Cache:	 139.56 seconds
+CacheBW:	155.76 seconds
+==========================
+Average Degradation (terasort) (clibquantum.sh):
+Normal:	 0.00 %
+BW:	 2 %
+Cache:	 17.50 %
+CacheBW:	31.13 %
+==========================
+flink,terasort,cpov.sh,no 		 - Execution time 0: 113.681051 seconds
+flink,terasort,cpov.sh,bw 		 - Execution time 1: 114.422255 seconds
+flink,terasort,cpov.sh,cache 		 - Execution time 2: 129.475153 seconds
+flink,terasort,cpov.sh,bwcache 		 - Execution time 3: 114.588548 seconds
+flink,terasort,cpov.sh,no 		 - Execution time 4: 111.989968 seconds
+flink,terasort,cpov.sh,bw 		 - Execution time 5: 114.213180 seconds
+flink,terasort,cpov.sh,cache 		 - Execution time 6: 117.007406 seconds
+flink,terasort,cpov.sh,bwcache 		 - Execution time 7: 113.285497 seconds
+flink,terasort,cpov.sh,no 		 - Execution time 8: 111.389768 seconds
+flink,terasort,cpov.sh,bw 		 - Execution time 9: 101.278179 seconds
+flink,terasort,cpov.sh,cache 		 - Execution time 10: 108.208345 seconds
+flink,terasort,cpov.sh,bwcache 		 - Execution time 11: 107.361098 seconds
+==========================
+Timestamp: [Fri Dec 11 19:23:08 CET 2015]
+==========================
+Average Execution Times (terasort) (cpov.sh):
+Normal:	 112.35 seconds
+BW:	 109.97 seconds
+Cache:	 118.23 seconds
+CacheBW:	111.75 seconds
+==========================
+Average Degradation (terasort) (cpov.sh):
+Normal:	 0.00 %
+BW:	 -2 %
+Cache:	 5.23 %
+CacheBW:	-0.54 %
+==========================
+flink,terasort,comnet.sh,no 		 - Execution time 0: 140.475613 seconds
+flink,terasort,comnet.sh,bw 		 - Execution time 1: 133.302994 seconds
+flink,terasort,comnet.sh,cache 		 - Execution time 2: 132.868525 seconds
+flink,terasort,comnet.sh,bwcache 		 - Execution time 3: 138.639133 seconds
+flink,terasort,comnet.sh,no 		 - Execution time 4: 115.862944 seconds
+flink,terasort,comnet.sh,bw 		 - Execution time 5: 113.540152 seconds
+flink,terasort,comnet.sh,cache 		 - Execution time 6: 133.201136 seconds
+flink,terasort,comnet.sh,bwcache 		 - Execution time 7: 137.315509 seconds
+flink,terasort,comnet.sh,no 		 - Execution time 8: 114.486972 seconds
+flink,terasort,comnet.sh,bw 		 - Execution time 9: 103.681180 seconds
+flink,terasort,comnet.sh,cache 		 - Execution time 10: 119.612100 seconds
+flink,terasort,comnet.sh,bwcache 		 - Execution time 11: 117.294661 seconds
+==========================
+Timestamp: [Fri Dec 11 19:48:23 CET 2015]
+==========================
+Average Execution Times (terasort) (comnet.sh):
+Normal:	 123.61 seconds
+BW:	 116.84 seconds
+Cache:	 128.56 seconds
+CacheBW:	131.08 seconds
+==========================
+Average Degradation (terasort) (comnet.sh):
+Normal:	 0.00 %
+BW:	 -5 %
+Cache:	 4.01 %
+CacheBW:	6.05 %
+==========================
