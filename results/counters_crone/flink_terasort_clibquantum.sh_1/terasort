@@ -1,0 +1,336 @@
+# started on Fri Dec 25 08:06:23 2015
+
+51203951,cache-references
+10016949,cache-misses
+4280183731,instructions
+4621022255,cycles
+2474533315,stalled-cycles-frontend
+1417846068,stalled-cycles-backend
+116329263,dtlb_misses_walk_cycles
+4524407930,inst_retired_any_p
+66976740,l2_lines_in_any
+11259851,LLC-prefetches
+# started on Fri Dec 25 08:06:40 2015
+
+76838791,cache-references
+38395061,cache-misses
+4219933335,instructions
+8510579142,cycles
+6264533717,stalled-cycles-frontend
+4375711094,stalled-cycles-backend
+9833938,dtlb_misses_walk_cycles
+4098270324,inst_retired_any_p
+101001976,l2_lines_in_any
+35151634,LLC-prefetches
+# started on Fri Dec 25 08:06:57 2015
+
+71506736,cache-references
+9857142,cache-misses
+9268670020,instructions
+6730848336,cycles
+3239896890,stalled-cycles-frontend
+1226518704,stalled-cycles-backend
+334284324,dtlb_misses_walk_cycles
+9426383004,inst_retired_any_p
+108603040,l2_lines_in_any
+34611643,LLC-prefetches
+# started on Fri Dec 25 08:07:13 2015
+
+415694,cache-references
+46017,cache-misses
+10862838,instructions
+18133019,cycles
+12211892,stalled-cycles-frontend
+8257475,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:07:30 2015
+
+41406505,cache-references
+10520156,cache-misses
+8404343185,instructions
+5241673797,cycles
+2460498207,stalled-cycles-frontend
+602334690,stalled-cycles-backend
+426590232,dtlb_misses_walk_cycles
+8561424664,inst_retired_any_p
+76364982,l2_lines_in_any
+34210947,LLC-prefetches
+# started on Fri Dec 25 08:07:47 2015
+
+329035,cache-references
+43518,cache-misses
+10258127,instructions
+18235353,cycles
+12255937,stalled-cycles-frontend
+17924241,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:08:03 2015
+
+2419576,cache-references
+538368,cache-misses
+254793405,instructions
+214948983,cycles
+119506011,stalled-cycles-frontend
+35622603,stalled-cycles-backend
+28062099,dtlb_misses_walk_cycles
+340192442,inst_retired_any_p
+2236134,l2_lines_in_any
+1147139,LLC-prefetches
+# started on Fri Dec 25 08:08:20 2015
+
+356000,cache-references
+46996,cache-misses
+6509753,instructions
+15039116,cycles
+11061257,stalled-cycles-frontend
+5440751,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:08:37 2015
+
+83828636,cache-references
+40519534,cache-misses
+3921328495,instructions
+8587101338,cycles
+6477514529,stalled-cycles-frontend
+4596304686,stalled-cycles-backend
+3223488,dtlb_misses_walk_cycles
+3962002287,inst_retired_any_p
+95011700,l2_lines_in_any
+36789713,LLC-prefetches
+# started on Fri Dec 25 08:08:53 2015
+
+350019,cache-references
+46962,cache-misses
+10284243,instructions
+17985691,cycles
+11985047,stalled-cycles-frontend
+6872524,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:09:10 2015
+
+295887,cache-references
+40742,cache-misses
+6572626,instructions
+14029831,cycles
+10011538,stalled-cycles-frontend
+6580530,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:09:27 2015
+
+300092,cache-references
+23363,cache-misses
+5780002,instructions
+11748409,cycles
+8215413,stalled-cycles-frontend
+4495989,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:09:43 2015
+
+303979,cache-references
+73260,cache-misses
+36459903,instructions
+43577064,cycles
+23229781,stalled-cycles-frontend
+12828996,stalled-cycles-backend
+612096,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:10:00 2015
+
+265149,cache-references
+39313,cache-misses
+8200202,instructions
+15498199,cycles
+10603951,stalled-cycles-frontend
+5262415,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:10:16 2015
+
+148064,cache-references
+13300,cache-misses
+3188448,instructions
+8557386,cycles
+6390913,stalled-cycles-frontend
+4123561,stalled-cycles-backend
+497770,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:10:33 2015
+
+271004,cache-references
+22480,cache-misses
+3567426,instructions
+8995068,cycles
+6742686,stalled-cycles-frontend
+3262340,stalled-cycles-backend
+226370,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:10:50 2015
+
+372880,cache-references
+48770,cache-misses
+6456464,instructions
+14314586,cycles
+10306760,stalled-cycles-frontend
+8723943,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:11:06 2015
+
+325883,cache-references
+20140,cache-misses
+4134967,instructions
+10097473,cycles
+7457091,stalled-cycles-frontend
+6287803,stalled-cycles-backend
+113287,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:11:23 2015
+
+293706,cache-references
+9095,cache-misses
+2203588,instructions
+6749298,cycles
+5220431,stalled-cycles-frontend
+<not counted>,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:11:40 2015
+
+512884,cache-references
+39769,cache-misses
+12136427,instructions
+20795404,cycles
+13817970,stalled-cycles-frontend
+9569552,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:11:56 2015
+
+359639,cache-references
+42663,cache-misses
+7363381,instructions
+14339436,cycles
+9981007,stalled-cycles-frontend
+4475099,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:12:13 2015
+
+185882,cache-references
+8874,cache-misses
+1639622,instructions
+5620045,cycles
+4450096,stalled-cycles-frontend
+2970265,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:12:30 2015
+
+247548,cache-references
+35845,cache-misses
+4223702,instructions
+10981519,cycles
+8311869,stalled-cycles-frontend
+4141038,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:12:46 2015
+
+286693,cache-references
+25581,cache-misses
+6787525,instructions
+10562027,cycles
+7444570,stalled-cycles-frontend
+3093564,stalled-cycles-backend
+194132,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:13:03 2015
+
+329050,cache-references
+36523,cache-misses
+9236265,instructions
+15144298,cycles
+9562790,stalled-cycles-frontend
+5091777,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:13:20 2015
+
+352344,cache-references
+40083,cache-misses
+9100040,instructions
+15871067,cycles
+10741415,stalled-cycles-frontend
+3101494,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:13:36 2015
+
+285126,cache-references
+24618,cache-misses
+5567931,instructions
+10647261,cycles
+7424633,stalled-cycles-frontend
+2220290,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Fri Dec 25 08:13:42 2015
+
+<not counted>,cache-references
+<not counted>,cache-misses
+<not counted>,instructions
+<not counted>,cycles
+<not counted>,stalled-cycles-frontend
+<not counted>,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches

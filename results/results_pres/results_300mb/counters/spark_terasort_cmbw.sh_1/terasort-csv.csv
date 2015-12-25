@@ -1,0 +1,15 @@
+LLC-prefetches,cache-misses,cache-references,cycles,dtlb_misses_walk_cycles,inst_retired_any_p,instructions,l2_lines_in_any,stalled-cycles-backend,stalled-cycles-frontend
+11863497,10594600,94261235,8644241243,132651920,7940656423,7631452505,118127822,2881208376,4479509741
+2341963,11974677,31620143,3635501656,197503479,2032715031,2165044425,41637096,1869155908,2554427733
+<not counted>,699399,2387568,239612687,3086672,117436465,230293996,2363962,96600987,124240673
+<not counted>,176214,302145,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+377485,228919,1787414,121316927,1430324,194889033,130367981,2142124,27143643,59090763
+3420260,4755684,7332246,970539410,35533836,810482121,909125708,11346577,500989661,632647036
+<not counted>,37274,916225,<not counted>,<not counted>,<not counted>,83247510,<not counted>,<not counted>,<not counted>
+123717,1100664,4340391,377007199,8399910,100292693,189602313,2787090,146523120,275765436
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,329850,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>

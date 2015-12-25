@@ -1,0 +1,2 @@
+LLC-prefetches,cache-misses,cache-references,cycles,dtlb_misses_walk_cycles,inst_retired_any_p,instructions,l2_lines_in_any,stalled-cycles-backend,stalled-cycles-frontend
+<not counted>,165942,814276,61324059,<not counted>,<not counted>,61036749,<not counted>,12228748,33864918

@@ -1,0 +1,16 @@
+2015-12-25 15:31:09,spark,terasort,clbm.sh,no,success,338.690188 
+2015-12-25 15:39:11,spark,terasort,clbm.sh,bw,success,345.920947 
+2015-12-25 15:48:44,flink,terasort,clbm.sh,no,success,424.239665 
+2015-12-25 15:57:20,flink,terasort,clbm.sh,bw,success,384.967250 
+2015-12-25 16:04:39,spark,terasort,clibquantum.sh,no,success,284.748108 
+2015-12-25 16:12:40,spark,terasort,clibquantum.sh,bw,success,344.806831 
+2015-12-25 16:21:00,flink,terasort,clibquantum.sh,no,success,351.675356 
+2015-12-25 16:30:42,flink,terasort,clibquantum.sh,bw,success,450.391909 
+2015-12-25 16:38:49,spark,terasort,comnet.sh,no,success,332.297169 
+2015-12-25 16:46:50,spark,terasort,comnet.sh,bw,success,344.809637 
+2015-12-25 16:55:26,flink,terasort,comnet.sh,no,success,368.198029 
+2015-12-25 17:03:34,flink,terasort,comnet.sh,bw,success,356.797931 
+2015-12-25 17:11:25,spark,terasort,cmbw.sh,no,success,331.360124 
+2015-12-25 17:17:38,spark,terasort,cmbw.sh,bw,success,247.226793 
+2015-12-25 17:26:04,flink,terasort,cmbw.sh,no,success,388.144061 
+2015-12-25 17:34:37,flink,terasort,cmbw.sh,bw,success,392.601088 

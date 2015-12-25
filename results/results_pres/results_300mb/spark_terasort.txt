@@ -1,0 +1,162 @@
+spark,terasort,comnet.sh,no,success			 - Execution time 0: 34.986625 seconds
+spark,terasort,comnet.sh,no,success			 - Execution time 1: 35.091107 seconds
+spark,terasort,comnet.sh,no,success			 - Execution time 2: 39.314851 seconds
+spark,terasort,comnet.sh,no,success			 - Execution time 3: 40.832577 seconds
+spark,terasort,comnet.sh,no,success			 - Execution time 4: 34.640096 seconds
+spark,terasort,comnet.sh,no,success			 - Execution time 5: 35.078114 seconds
+spark,terasort,comnet.sh,no,success			 - Execution time 6: 38.567095 seconds
+spark,terasort,comnet.sh,no,success			 - Execution time 7: 40.400701 seconds
+spark,terasort,comnet.sh,no,success			 - Execution time 8: 35.029862 seconds
+spark,terasort,comnet.sh,no,success			 - Execution time 9: 35.195129 seconds
+spark,terasort,comnet.sh,no,success			 - Execution time 10: 39.064619 seconds
+spark,terasort,comnet.sh,no,success			 - Execution time 11: 40.852152 seconds
+==========================
+Timestamp: [2015-12-15 14:04:03]
+==========================
+Average Execution Times (terasort) (comnet.sh):
+Normal:	 0.00 seconds
+BW:	 0.00 seconds
+Cache:	 0.00 seconds
+CacheBW:	0.00 seconds
+==========================
+Average Degradation (terasort) (comnet.sh):
+Normal:	 0.00 %
+BW:	 0 %
+Cache:	 0.00 %
+CacheBW:	0.00 %
+==========================
+spark,terasort,cpov.sh,no,success			 - Execution time 0: 265.827670 seconds
+spark,terasort,cpov.sh,no,success			 - Execution time 1: 265.307318 seconds
+spark,terasort,cpov.sh,no,success			 - Execution time 2: 274.379969 seconds
+spark,terasort,cpov.sh,no,success			 - Execution time 3: 272.584318 seconds
+spark,terasort,cpov.sh,no,success			 - Execution time 4: 236.545765 seconds
+spark,terasort,cpov.sh,no,success			 - Execution time 5: 269.908162 seconds
+spark,terasort,cpov.sh,no,success			 - Execution time 6: 266.927277 seconds
+spark,terasort,cpov.sh,no,success			 - Execution time 7: 268.739991 seconds
+spark,terasort,cpov.sh,no,success			 - Execution time 8: 210.321796 seconds
+spark,terasort,cpov.sh,no,success			 - Execution time 9: 264.802815 seconds
+spark,terasort,cpov.sh,no,success			 - Execution time 10: 225.263063 seconds
+spark,terasort,cpov.sh,no,success			 - Execution time 11: 268.639194 seconds
+==========================
+Timestamp: [2015-12-15 16:27:51]
+==========================
+Average Execution Times (terasort) (cpov.sh):
+Normal:	 0.00 seconds
+BW:	 0.00 seconds
+Cache:	 0.00 seconds
+CacheBW:	0.00 seconds
+==========================
+Average Degradation (terasort) (cpov.sh):
+Normal:	 0.00 %
+BW:	 0 %
+Cache:	 0.00 %
+CacheBW:	0.00 %
+==========================
+spark,terasort,clbm.sh,no,success			 - Execution time 0: 232.292152 seconds
+spark,terasort,clbm.sh,bw,success			 - Execution time 1: 268.090965 seconds
+spark,terasort,clbm.sh,cache,success			 - Execution time 2: 256.610043 seconds
+spark,terasort,clbm.sh,bwcache,success			 - Execution time 3: 293.201681 seconds
+spark,terasort,clbm.sh,no,success			 - Execution time 4: 219.197998 seconds
+spark,terasort,clbm.sh,bw,success			 - Execution time 5: 239.262869 seconds
+spark,terasort,clbm.sh,cache,success			 - Execution time 6: 242.854377 seconds
+spark,terasort,clbm.sh,bwcache,success			 - Execution time 7: 286.287809 seconds
+spark,terasort,clbm.sh,no,success			 - Execution time 8: 214.573437 seconds
+spark,terasort,clbm.sh,bw,success			 - Execution time 9: 216.911814 seconds
+spark,terasort,clbm.sh,cache,success			 - Execution time 10: 246.783131 seconds
+spark,terasort,clbm.sh,bwcache,success			 - Execution time 11: 259.760802 seconds
+==========================
+Timestamp: [2015-12-16 08:27:11]
+==========================
+Average Execution Times (terasort) (clbm.sh):
+Normal:	 0.00 seconds
+BW:	 0.00 seconds
+Cache:	 0.00 seconds
+CacheBW:	0.00 seconds
+==========================
+Average Degradation (terasort) (clbm.sh):
+Normal:	 0.00 %
+BW:	 0 %
+Cache:	 0.00 %
+CacheBW:	0.00 %
+==========================
+spark,terasort,cmbw.sh,no,success			 - Execution time 0: 166.005677 seconds
+spark,terasort,cmbw.sh,bw,success			 - Execution time 1: 173.834997 seconds
+spark,terasort,cmbw.sh,cache,success			 - Execution time 2: 173.743735 seconds
+spark,terasort,cmbw.sh,bwcache,success			 - Execution time 3: 175.622110 seconds
+spark,terasort,cmbw.sh,no,success			 - Execution time 4: 272.740715 seconds
+spark,terasort,cmbw.sh,bw,success			 - Execution time 5: 171.158022 seconds
+spark,terasort,cmbw.sh,cache,success			 - Execution time 6: 189.694968 seconds
+spark,terasort,cmbw.sh,bwcache,success			 - Execution time 7: 194.806512 seconds
+spark,terasort,cmbw.sh,no,success			 - Execution time 8: 180.677568 seconds
+spark,terasort,cmbw.sh,bw,success			 - Execution time 9: 182.736835 seconds
+spark,terasort,cmbw.sh,cache,success			 - Execution time 10: 178.607882 seconds
+spark,terasort,cmbw.sh,bwcache,success			 - Execution time 11: 183.504645 seconds
+==========================
+Timestamp: [2015-12-16 14:41:35]
+==========================
+Average Execution Times (terasort) (cmbw.sh):
+Normal:	 206.47 seconds
+BW:	 175.91 seconds
+Cache:	 180.68 seconds
+CacheBW:	0.00 seconds
+==========================
+Average Degradation (terasort) (cmbw.sh):
+Normal:	 0.00 %
+BW:	 -15 %
+Cache:	 -12.49 %
+CacheBW:	-100.00 %
+==========================
+spark,terasort,comnet.sh,no,success			 - Execution time 0: 51.338527 seconds
+spark,terasort,comnet.sh,bw,success			 - Execution time 1: 62.198092 seconds
+spark,terasort,comnet.sh,cache,success			 - Execution time 2: 68.540922 seconds
+spark,terasort,comnet.sh,bwcache,success			 - Execution time 3: 70.313552 seconds
+spark,terasort,comnet.sh,no,success			 - Execution time 4: 61.479350 seconds
+spark,terasort,comnet.sh,bw,success			 - Execution time 5: 62.478724 seconds
+spark,terasort,comnet.sh,cache,success			 - Execution time 6: 68.828933 seconds
+spark,terasort,comnet.sh,bwcache,success			 - Execution time 7: 70.496956 seconds
+spark,terasort,comnet.sh,no,success			 - Execution time 8: 62.522207 seconds
+spark,terasort,comnet.sh,bw,success			 - Execution time 9: 61.924608 seconds
+spark,terasort,comnet.sh,cache,success			 - Execution time 10: 68.704705 seconds
+spark,terasort,comnet.sh,bwcache,success			 - Execution time 11: 70.349114 seconds
+==========================
+Timestamp: [2015-12-16 21:05:41]
+==========================
+Average Execution Times (terasort) (comnet.sh):
+Normal:	 58.45 seconds
+BW:	 62.20 seconds
+Cache:	 68.69 seconds
+CacheBW:	0.00 seconds
+==========================
+Average Degradation (terasort) (comnet.sh):
+Normal:	 0.00 %
+BW:	 6 %
+Cache:	 17.53 %
+CacheBW:	-100.00 %
+==========================
+spark,terasort,clibquantum.sh,no,success			 - Execution time 0: 62.040801 seconds
+spark,terasort,clibquantum.sh,bw,success			 - Execution time 1: 62.752195 seconds
+spark,terasort,clibquantum.sh,cache,success			 - Execution time 2: 67.911382 seconds
+spark,terasort,clibquantum.sh,bwcache,success			 - Execution time 3: 69.660115 seconds
+spark,terasort,clibquantum.sh,no,success			 - Execution time 4: 61.332860 seconds
+spark,terasort,clibquantum.sh,bw,success			 - Execution time 5: 61.863992 seconds
+spark,terasort,clibquantum.sh,cache,success			 - Execution time 6: 71.436862 seconds
+spark,terasort,clibquantum.sh,bwcache,success			 - Execution time 7: 71.665551 seconds
+spark,terasort,clibquantum.sh,no,success			 - Execution time 8: 61.647652 seconds
+spark,terasort,clibquantum.sh,bw,success			 - Execution time 9: 62.935585 seconds
+spark,terasort,clibquantum.sh,cache,success			 - Execution time 10: 69.341212 seconds
+spark,terasort,clibquantum.sh,bwcache,success			 - Execution time 11: 70.328957 seconds
+==========================
+Timestamp: [2015-12-16 21:54:00]
+==========================
+Average Execution Times (terasort) (clibquantum.sh):
+Normal:	 61.67 seconds
+BW:	 62.52 seconds
+Cache:	 69.56 seconds
+CacheBW:	0.00 seconds
+==========================
+Average Degradation (terasort) (clibquantum.sh):
+Normal:	 0.00 %
+BW:	 1 %
+Cache:	 12.79 %
+CacheBW:	-100.00 %
+==========================

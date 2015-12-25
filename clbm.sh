@@ -16,7 +16,7 @@ then
 	numactl --physcpubind=4 --membind=1  -- runspec --config nav-gcc43.cfg --noreportable --iterations=1 lbm &
 	numactl --physcpubind=6 --membind=1  -- runspec --config nav-gcc43.cfg --noreportable --iterations=1 lbm &
 	numactl --physcpubind=8 --membind=1  -- runspec --config nav-gcc43.cfg --noreportable --iterations=1 lbm &
-	numactl --physcpubind=10 --membind=1 -- runspec --config nav-gcc43.cfg --noreportable --iterations=1 lbm &
+#	numactl --physcpubind=10 --membind=1 -- runspec --config nav-gcc43.cfg --noreportable --iterations=1 lbm &
 elif [ "$option" == "c" ];                
 then
 	echo "Creating LBM on Cache " >> $LOG_FILE
@@ -25,7 +25,7 @@ then
 	numactl --physcpubind=5 --membind=0 -- runspec --config nav-gcc43.cfg --noreportable --iterations=1 lbm &
 	numactl --physcpubind=7 --membind=0 -- runspec --config nav-gcc43.cfg --noreportable --iterations=1 lbm &
 	numactl --physcpubind=9 --membind=0 -- runspec --config nav-gcc43.cfg --noreportable --iterations=1 lbm &
-	numactl --physcpubind=11 --membind=0 -- runspec --config nav-gcc43.cfg --noreportable --iterations=1 lbm & 
+#	numactl --physcpubind=11 --membind=0 -- runspec --config nav-gcc43.cfg --noreportable --iterations=1 lbm & 
 elif [ "$option" == "a" ];                
 then
 	echo "Creating LBM on cache & BW " >> $LOG_FILE
@@ -34,5 +34,5 @@ then
 	numactl --physcpubind=5 --membind=1 -- runspec --config nav-gcc43.cfg --noreportable --iterations=1 lbm &
 	numactl --physcpubind=7 --membind=1 -- runspec --config nav-gcc43.cfg --noreportable --iterations=1 lbm &
 	numactl --physcpubind=9 --membind=1 -- runspec --config nav-gcc43.cfg --noreportable --iterations=1 lbm &
-	numactl --physcpubind=11 --membind=1 -- runspec --config nav-gcc43.cfg --noreportable --iterations=1 lbm &
+#	numactl --physcpubind=11 --membind=1 -- runspec --config nav-gcc43.cfg --noreportable --iterations=1 lbm &
 fi

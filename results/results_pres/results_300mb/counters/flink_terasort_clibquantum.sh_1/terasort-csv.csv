@@ -1,0 +1,6 @@
+LLC-prefetches,cache-misses,cache-references,cycles,dtlb_misses_walk_cycles,inst_retired_any_p,instructions,l2_lines_in_any,stalled-cycles-backend,stalled-cycles-frontend
+20472220,7315201,71348145,6875936384,153704995,7284331100,7280003369,100613107,1955098417,3316151478
+<not counted>,134044,948037,65210302,3867105,<not counted>,37078177,<not counted>,23520785,41395890
+21780048,26454251,56581717,8538031243,2897742,3842149230,3810690043,74451503,4623174958,6480926022
+<not counted>,79972,1298564,41095842,<not counted>,<not counted>,17385848,<not counted>,<not counted>,28727735
+<not counted>,117663,1181931,45434738,<not counted>,<not counted>,18769701,<not counted>,20107210,31867528

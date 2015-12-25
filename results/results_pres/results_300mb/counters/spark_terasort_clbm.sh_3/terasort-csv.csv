@@ -1,0 +1,26 @@
+LLC-prefetches,cache-misses,cache-references,cycles,dtlb_misses_walk_cycles,inst_retired_any_p,instructions,l2_lines_in_any,stalled-cycles-backend,stalled-cycles-frontend
+17673848,7085925,103950735,8958827360,138108385,8760665061,8599996785,136179547,2688074113,4368397276
+2434024,2761140,25883045,2014535607,53216905,1700808973,1839525427,24328889,586762506,1006229254
+<not counted>,79828,249946,35077284,<not counted>,<not counted>,25799870,<not counted>,13990434,22375049
+<not counted>,156955,363865,55400374,467029,<not counted>,44907479,<not counted>,17375392,31293896
+<not counted>,76059,218588,24528612,<not counted>,<not counted>,15724927,<not counted>,7484796,16483387
+<not counted>,178030,583131,98273801,<not counted>,<not counted>,48073164,<not counted>,<not counted>,55550119
+<not counted>,104036,237465,51955468,<not counted>,<not counted>,46012958,<not counted>,14329909,28227834
+<not counted>,68671,160543,12112507,<not counted>,<not counted>,7197969,<not counted>,3203155,8114116
+44020472,4221844,25951712,1650540020,44235828,2322625720,2261730696,55715198,346292230,755984599
+<not counted>,16993,48425,3131369,<not counted>,<not counted>,1383683,<not counted>,<not counted>,2299941
+<not counted>,69545,177653,20411548,<not counted>,<not counted>,17949843,<not counted>,8035658,11081248
+<not counted>,72256,204948,38398020,267563,<not counted>,29861681,<not counted>,10548216,19530444
+809728,224960,3351130,183900312,5348256,238563075,132058538,3695842,78551233,115294840
+<not counted>,83708,214917,23973869,<not counted>,<not counted>,21424201,<not counted>,5365728,12780055
+385241,468142,919022,54204023,720274,105749242,38343391,883278,16699234,28746329
+<not counted>,86633,290887,29203688,<not counted>,<not counted>,29856984,<not counted>,<not counted>,14599755
+<not counted>,31219,44529,3999902,280823,<not counted>,1314111,<not counted>,1566383,3206047
+<not counted>,37094,94540,28994650,<not counted>,<not counted>,4431383,<not counted>,<not counted>,5155546
+740451,499349,3019713,186172216,4347634,315929969,137029631,3290759,53892415,102931344
+<not counted>,19432,45947,3030778,<not counted>,<not counted>,917217,<not counted>,<not counted>,2445142
+<not counted>,55951,176905,1936326,<not counted>,<not counted>,518860,<not counted>,<not counted>,1589150
+<not counted>,13165,48751,2675543,<not counted>,<not counted>,805764,<not counted>,<not counted>,2153784
+<not counted>,45227,80750,14598620,94333,<not counted>,12636217,<not counted>,5475180,7997918
+<not counted>,56506,99251,8244606,<not counted>,<not counted>,5466191,<not counted>,<not counted>,5255252
+<not counted>,61286,163829,16477809,<not counted>,<not counted>,14559993,<not counted>,<not counted>,8799552

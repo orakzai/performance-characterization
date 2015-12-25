@@ -1,0 +1,84 @@
+# started on Wed Dec 16 16:53:33 2015
+
+130104476,cache-references
+9860391,cache-misses
+11017091114,instructions
+11333090212,cycles
+5803040126,stalled-cycles-frontend
+3564754679,stalled-cycles-backend
+244325425,dtlb_misses_walk_cycles
+11549775467,inst_retired_any_p
+177525618,l2_lines_in_any
+27758370,LLC-prefetches
+# started on Wed Dec 16 16:53:44 2015
+
+239116395,cache-references
+148356436,cache-misses
+6587683694,instructions
+11543786326,cycles
+8362314761,stalled-cycles-frontend
+5481561707,stalled-cycles-backend
+92731829,dtlb_misses_walk_cycles
+6518144585,inst_retired_any_p
+301993924,l2_lines_in_any
+82458561,LLC-prefetches
+# started on Wed Dec 16 16:53:56 2015
+
+117161824,cache-references
+31504880,cache-misses
+7486711825,instructions
+12035542780,cycles
+8279835139,stalled-cycles-frontend
+5514373547,stalled-cycles-backend
+125358106,dtlb_misses_walk_cycles
+7221436765,inst_retired_any_p
+178983249,l2_lines_in_any
+40513349,LLC-prefetches
+# started on Wed Dec 16 16:54:07 2015
+
+41941474,cache-references
+2333967,cache-misses
+2032377217,instructions
+2515869534,cycles
+1362816415,stalled-cycles-frontend
+853351937,stalled-cycles-backend
+82142829,dtlb_misses_walk_cycles
+1667926746,inst_retired_any_p
+52181776,l2_lines_in_any
+3872243,LLC-prefetches
+# started on Wed Dec 16 16:54:19 2015
+
+57741513,cache-references
+9078474,cache-misses
+16045258109,instructions
+11192129684,cycles
+4558088864,stalled-cycles-frontend
+2756609550,stalled-cycles-backend
+263302094,dtlb_misses_walk_cycles
+16484550384,inst_retired_any_p
+76573292,l2_lines_in_any
+11392428,LLC-prefetches
+# started on Wed Dec 16 16:54:30 2015
+
+58025949,cache-references
+7760974,cache-misses
+16331805974,instructions
+11231061117,cycles
+4726994852,stalled-cycles-frontend
+2842469706,stalled-cycles-backend
+269240088,dtlb_misses_walk_cycles
+16660350566,inst_retired_any_p
+71312484,l2_lines_in_any
+5793582,LLC-prefetches
+# started on Wed Dec 16 16:54:42 2015
+
+272022978,cache-references
+34514425,cache-misses
+14441722907,instructions
+14445722926,cycles
+8665536105,stalled-cycles-frontend
+5114878211,stalled-cycles-backend
+640234880,dtlb_misses_walk_cycles
+14137150033,inst_retired_any_p
+349606125,l2_lines_in_any
+52242853,LLC-prefetches

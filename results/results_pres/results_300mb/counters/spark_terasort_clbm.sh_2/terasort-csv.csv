@@ -1,0 +1,23 @@
+LLC-prefetches,cache-misses,cache-references,cycles,dtlb_misses_walk_cycles,inst_retired_any_p,instructions,l2_lines_in_any,stalled-cycles-backend,stalled-cycles-frontend
+14750236,5626540,100168318,8597263937,128524387,8239918913,8165695344,124287089,2618012732,4187218839
+2103982,2219194,21001913,1891160496,57216426,1490128012,1795108852,27486471,604629013,908446867
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+211895,104398,1003928,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+4727872,3879542,6666093,972439782,24010619,1324514335,1422263021,15160768,243617726,399279744
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,125061,630285,67031147,<not counted>,<not counted>,105382669,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,154581,729736,87409084,<not counted>,<not counted>,115662621,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+612793,614403,2157126,230021488,3136287,160138502,232639927,1988161,31491021,104566125
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>

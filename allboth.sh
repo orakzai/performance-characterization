@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd /home/orak/scripts/
 
 #./testboth.sh w m f 
 #./testboth.sh w l f
@@ -9,23 +10,20 @@
 #./testboth.sh w s f
 
 
-#./testboth.sh t m s
-#./testboth.sh t m f
-
 ./testboth.sh t l s
 ./testboth.sh t l f
 
-./testboth.sh t p s
-./testboth.sh t p f
+#./testboth.sh t p s
+#./testboth.sh t p f
 
 ./testboth.sh t q s
 ./testboth.sh t q f
 
 ./testboth.sh t o s
 ./testboth.sh t o f
-#./testboth.sh t s f
 
-
+./testboth.sh t m s
+./testboth.sh t m f
 
 #./testboth.sh w m s 
 #./testboth.sh w l s

@@ -1,0 +1,194 @@
+flink,terasort,cmbw.sh,no,success,804.546686 
+flink,terasort,cmbw.sh,bw,fail,1060.623490 
+flink,terasort,cmbw.sh,cache,success,689.207254 
+flink,terasort,cmbw.sh,bwcache,success,1186.511761 
+flink,terasort,cmbw.sh,no,success,739.660650 
+flink,terasort,cmbw.sh,bw,fail,1017.723942 
+flink,terasort,cmbw.sh,cache,success,852.528069 
+flink,terasort,cmbw.sh,bwcache,success,969.650089 
+flink,terasort,cmbw.sh,no,success,759.033960 
+flink,terasort,cmbw.sh,bw,success,1170.696620 
+flink,terasort,cmbw.sh,cache,success,775.498479 
+flink,terasort,cmbw.sh,bwcache,fail,1147.735567 
+spark,terasort,clbm.sh,no,success,192.277721 
+spark,terasort,clbm.sh,bw,success,267.428236 
+spark,terasort,clbm.sh,cache,success,202.021074 
+spark,terasort,clbm.sh,bwcache,success,166.977183 
+spark,terasort,clbm.sh,no,success,241.118989 
+spark,terasort,clbm.sh,bw,success,192.418780 
+Tue Dec 15 11:44:14 CET 2015,spark,terasort,clbm.sh,no,success,159.607458 
+Tue Dec 15 11:51:05 CET 2015,spark,terasort,clbm.sh,bw,success,276.658951 
+Tue Dec 15 11:56:55 CET 2015,spark,terasort,clbm.sh,cache,success,214.143747 
+Tue Dec 15 12:02:47 CET 2015,spark,terasort,clbm.sh,bwcache,success,216.539619 
+Tue Dec 15 12:08:39 CET 2015,spark,terasort,clbm.sh,no,success,215.884667 
+Tue Dec 15 12:15:28 CET 2015,spark,terasort,clbm.sh,bw,success,274.312857 
+Tue Dec 15 12:21:19 CET 2015,spark,terasort,clbm.sh,cache,success,215.452301 
+Tue Dec 15 12:27:29 CET 2015,spark,terasort,clbm.sh,bwcache,success,234.312183 
+Tue Dec 15 12:34:08 CET 2015,spark,terasort,clbm.sh,no,success,263.035649 
+Tue Dec 15 12:40:25 CET 2015,spark,terasort,clbm.sh,bw,success,242.308093 
+Tue Dec 15 12:46:15 CET 2015,spark,terasort,clbm.sh,cache,success,214.722036 
+Tue Dec 15 12:52:09 CET 2015,spark,terasort,clbm.sh,bwcache,success,218.146470 
+2015-12-15 13:22:14,spark,terasort,clbm.sh,no,success,0.000000 
+2015-12-15 13:25:05,spark,terasort,clbm.sh,bw,success,0.000000 
+2015-12-15 13:31:13,spark,terasort,comnet.sh,no,success,34.986625 
+2015-12-15 13:34:03,spark,terasort,comnet.sh,bw,success,35.091107 
+2015-12-15 13:36:58,spark,terasort,comnet.sh,cache,success,39.314851 
+2015-12-15 13:39:54,spark,terasort,comnet.sh,bwcache,success,40.832577 
+2015-12-15 13:42:44,spark,terasort,comnet.sh,no,success,34.640096 
+2015-12-15 13:45:34,spark,terasort,comnet.sh,bw,success,35.078114 
+2015-12-15 13:48:28,spark,terasort,comnet.sh,cache,success,38.567095 
+2015-12-15 13:51:24,spark,terasort,comnet.sh,bwcache,success,40.400701 
+2015-12-15 13:54:15,spark,terasort,comnet.sh,no,success,35.029862 
+2015-12-15 13:57:05,spark,terasort,comnet.sh,bw,success,35.195129 
+2015-12-15 13:59:59,spark,terasort,comnet.sh,cache,success,39.064619 
+2015-12-15 14:02:56,spark,terasort,comnet.sh,bwcache,success,40.852152 
+2015-12-15 15:04:59,spark,terasort,cpov.sh,no,fail,151.240472 
+2015-12-15 15:14:54,spark,terasort,cpov.sh,no,success,265.827670 
+2015-12-15 15:21:34,spark,terasort,cpov.sh,bw,success,265.307318 
+2015-12-15 15:28:24,spark,terasort,cpov.sh,cache,success,274.379969 
+2015-12-15 15:35:12,spark,terasort,cpov.sh,bwcache,success,272.584318 
+2015-12-15 15:41:23,spark,terasort,cpov.sh,no,success,236.545765 
+2015-12-15 15:48:08,spark,terasort,cpov.sh,bw,success,269.908162 
+2015-12-15 15:54:50,spark,terasort,cpov.sh,cache,success,266.927277 
+2015-12-15 16:01:34,spark,terasort,cpov.sh,bwcache,success,268.739991 
+2015-12-15 16:07:20,spark,terasort,cpov.sh,no,success,210.321796 
+2015-12-15 16:14:00,spark,terasort,cpov.sh,bw,success,264.802815 
+2015-12-15 16:20:00,spark,terasort,cpov.sh,cache,success,225.263063 
+2015-12-15 16:26:44,spark,terasort,cpov.sh,bwcache,success,268.639194 
+2015-12-15 17:07:13,flink,terasort,cpov.sh,no,success,344.236056 
+2015-12-15 17:14:57,flink,terasort,cpov.sh,bw,success,333.107720 
+2015-12-15 17:22:49,flink,terasort,cpov.sh,cache,success,339.667016 
+2015-12-15 17:29:37,flink,terasort,cpov.sh,bwcache,success,277.187183 
+2015-12-15 17:37:05,flink,terasort,cpov.sh,no,success,315.523070 
+2015-12-15 17:44:05,flink,terasort,cpov.sh,bw,success,288.612334 
+2015-12-15 17:51:33,flink,terasort,cpov.sh,cache,success,315.925248 
+2015-12-15 17:59:18,flink,terasort,cpov.sh,bwcache,success,333.465240 
+2015-12-15 18:06:38,flink,terasort,cpov.sh,no,success,308.980499 
+2015-12-15 18:14:05,flink,terasort,cpov.sh,bw,success,314.532235 
+2015-12-15 18:21:43,flink,terasort,cpov.sh,cache,success,327.111325 
+2015-12-15 18:29:11,flink,terasort,cpov.sh,bwcache,success,316.364726 
+2015-12-16 07:15:24,spark,terasort,clbm.sh,no,success,232.292152 
+2015-12-16 07:22:08,spark,terasort,clbm.sh,bw,success,268.090965 
+2015-12-16 07:28:42,spark,terasort,clbm.sh,cache,success,256.610043 
+2015-12-16 07:35:51,spark,terasort,clbm.sh,bwcache,success,293.201681 
+2015-12-16 07:41:47,spark,terasort,clbm.sh,no,success,219.197998 
+2015-12-16 07:48:02,spark,terasort,clbm.sh,bw,success,239.262869 
+2015-12-16 07:54:21,spark,terasort,clbm.sh,cache,success,242.854377 
+2015-12-16 08:01:23,spark,terasort,clbm.sh,bwcache,success,286.287809 
+2015-12-16 08:07:14,spark,terasort,clbm.sh,no,success,214.573437 
+2015-12-16 08:13:06,spark,terasort,clbm.sh,bw,success,216.911814 
+2015-12-16 08:19:29,spark,terasort,clbm.sh,cache,success,246.783131 
+2015-12-16 08:26:04,spark,terasort,clbm.sh,bwcache,success,259.760802 
+2015-12-16 08:34:00,flink,terasort,clbm.sh,no,success,327.711464 
+2015-12-16 08:51:06,flink,terasort,clbm.sh,bw,fail,880.441288 
+2015-12-16 08:59:55,flink,terasort,clbm.sh,cache,fail,385.349652 
+2015-12-16 09:10:09,flink,terasort,clbm.sh,bwcache,success,484.175736 
+2015-12-16 09:18:33,flink,terasort,clbm.sh,no,success,372.192685 
+2015-12-16 09:24:26,flink,terasort,clbm.sh,bw,fail,221.871787 
+2015-12-16 09:32:32,flink,terasort,clbm.sh,cache,fail,346.991884 
+2015-12-16 09:55:12,flink,terasort,clbm.sh,bwcache,fail,1228.720996 
+2015-12-16 11:22:42,flink,terasort,clbm.sh,no,success,328.838484 
+2015-12-16 11:30:47,flink,terasort,clbm.sh,bw,success,353.171497 
+2015-12-16 11:43:40,flink,terasort,clbm.sh,cache,fail,640.871568 
+2015-12-16 11:56:36,flink,terasort,clbm.sh,bwcache,fail,643.629383 
+2015-12-16 12:04:31,flink,terasort,clbm.sh,no,success,325.436358 
+2015-12-16 12:12:20,flink,terasort,clbm.sh,bw,success,337.328113 
+2015-12-16 12:24:34,flink,terasort,clbm.sh,cache,fail,601.338214 
+2015-12-16 12:38:40,flink,terasort,clbm.sh,bwcache,fail,713.836689 
+2015-12-16 12:46:03,flink,terasort,clbm.sh,no,success,311.756551 
+2015-12-16 12:54:02,flink,terasort,clbm.sh,bw,success,347.463363 
+2015-12-16 13:06:16,flink,terasort,clbm.sh,cache,fail,601.631107 
+2015-12-16 13:20:16,flink,terasort,clbm.sh,bwcache,fail,707.638789 
+2015-12-16 13:43:17,spark,terasort,cmbw.sh,no,success,166.005677 
+2015-12-16 13:48:15,spark,terasort,cmbw.sh,bw,success,173.834997 
+2015-12-16 13:53:15,spark,terasort,cmbw.sh,cache,success,173.743735 
+2015-12-16 13:58:16,spark,terasort,cmbw.sh,bwcache,success,175.622110 
+2015-12-16 14:04:50,spark,terasort,cmbw.sh,no,success,272.740715 
+2015-12-16 14:09:45,spark,terasort,cmbw.sh,bw,success,171.158022 
+2015-12-16 14:15:00,spark,terasort,cmbw.sh,cache,success,189.694968 
+2015-12-16 14:20:20,spark,terasort,cmbw.sh,bwcache,success,194.806512 
+2015-12-16 14:25:23,spark,terasort,cmbw.sh,no,success,180.677568 
+2015-12-16 14:30:29,spark,terasort,cmbw.sh,bw,success,182.736835 
+2015-12-16 14:35:33,spark,terasort,cmbw.sh,cache,success,178.607882 
+2015-12-16 14:40:42,spark,terasort,cmbw.sh,bwcache,success,183.504645 
+2015-12-16 14:54:20,flink,terasort,cmbw.sh,no,success,326.676270 
+2015-12-16 15:02:31,flink,terasort,cmbw.sh,bw,fail,369.366795 
+2015-12-16 15:16:20,flink,terasort,cmbw.sh,no,success,315.010114 
+2015-12-16 15:27:10,flink,terasort,cmbw.sh,bw,fail,529.944156 
+2015-12-16 15:35:30,flink,terasort,cmbw.sh,cache,success,379.612131 
+2015-12-16 15:45:59,flink,terasort,cmbw.sh,bwcache,fail,506.109981 
+2015-12-16 15:53:11,flink,terasort,cmbw.sh,no,success,314.784935 
+2015-12-16 16:03:12,flink,terasort,cmbw.sh,bw,fail,480.670460 
+2015-12-16 16:13:31,flink,terasort,cmbw.sh,cache,fail,498.332690 
+2015-12-16 16:54:46,flink,terasort,cmbw.sh,no,success,79.307155 
+2015-12-16 16:59:34,flink,terasort,cmbw.sh,bw,success,167.948728 
+2015-12-16 17:04:38,flink,terasort,cmbw.sh,cache,success,182.108635 
+2015-12-16 17:09:32,flink,terasort,cmbw.sh,bwcache,success,170.437463 
+2015-12-16 17:12:45,flink,terasort,cmbw.sh,no,success,74.077951 
+2015-12-16 17:16:26,flink,terasort,cmbw.sh,bw,success,101.240674 
+2015-12-16 17:20:31,flink,terasort,cmbw.sh,cache,success,121.413738 
+2015-12-16 17:25:08,flink,terasort,cmbw.sh,bwcache,success,155.237518 
+2015-12-16 17:28:21,flink,terasort,cmbw.sh,no,success,73.831252 
+2015-12-16 17:32:10,flink,terasort,cmbw.sh,bw,success,107.575999 
+2015-12-16 17:36:56,flink,terasort,cmbw.sh,cache,success,163.996162 
+2015-12-16 17:40:26,flink,terasort,cmbw.sh,bwcache,success,87.870799 
+2015-12-16 17:51:09,flink,terasort,clbm.sh,no,success,74.499688 
+2015-12-16 17:54:46,flink,terasort,clbm.sh,bw,success,86.070939 
+2015-12-16 18:00:27,flink,terasort,clbm.sh,cache,success,207.837739 
+2015-12-16 18:06:17,flink,terasort,clbm.sh,bwcache,success,218.830754 
+2015-12-16 18:09:47,flink,terasort,clbm.sh,no,success,78.366982 
+2015-12-16 18:13:22,flink,terasort,clbm.sh,bw,success,83.435338 
+2015-12-16 18:18:29,flink,terasort,clbm.sh,cache,success,174.956751 
+2015-12-16 18:24:18,flink,terasort,clbm.sh,bwcache,success,216.154992 
+2015-12-16 18:27:48,flink,terasort,clbm.sh,no,success,78.091964 
+2015-12-16 18:31:28,flink,terasort,clbm.sh,bw,success,89.054206 
+2015-12-16 18:37:02,flink,terasort,clbm.sh,cache,success,202.490670 
+2015-12-16 18:42:23,flink,terasort,clbm.sh,bwcache,success,189.120669 
+2015-12-16 19:27:15,flink,terasort,comnet.sh,no,success,78.105361 
+2015-12-16 19:30:47,flink,terasort,comnet.sh,bw,success,80.564463 
+2015-12-16 19:34:50,flink,terasort,comnet.sh,cache,success,111.155713 
+2015-12-16 19:38:27,flink,terasort,comnet.sh,bwcache,success,86.065677 
+2015-12-16 19:41:58,flink,terasort,comnet.sh,no,success,78.914236 
+2015-12-16 19:45:27,flink,terasort,comnet.sh,bw,success,77.800415 
+2015-12-16 19:49:32,flink,terasort,comnet.sh,cache,success,113.692146 
+2015-12-16 19:53:33,flink,terasort,comnet.sh,bwcache,success,109.499343 
+2015-12-16 19:56:44,flink,terasort,comnet.sh,no,success,60.152297 
+2015-12-16 20:00:16,flink,terasort,comnet.sh,bw,success,80.748564 
+2015-12-16 20:04:19,flink,terasort,comnet.sh,cache,success,111.553437 
+2015-12-16 20:08:19,flink,terasort,comnet.sh,bwcache,success,108.453708 
+2015-12-16 20:27:36,spark,terasort,comnet.sh,no,success,51.338527 
+2015-12-16 20:30:53,spark,terasort,comnet.sh,bw,success,62.198092 
+2015-12-16 20:34:17,spark,terasort,comnet.sh,cache,success,68.540922 
+2015-12-16 20:37:43,spark,terasort,comnet.sh,bwcache,success,70.313552 
+2015-12-16 20:41:01,spark,terasort,comnet.sh,no,success,61.479350 
+2015-12-16 20:44:18,spark,terasort,comnet.sh,bw,success,62.478724 
+2015-12-16 20:47:43,spark,terasort,comnet.sh,cache,success,68.828933 
+2015-12-16 20:51:09,spark,terasort,comnet.sh,bwcache,success,70.496956 
+2015-12-16 20:54:27,spark,terasort,comnet.sh,no,success,62.522207 
+2015-12-16 20:57:44,spark,terasort,comnet.sh,bw,success,61.924608 
+2015-12-16 21:01:08,spark,terasort,comnet.sh,cache,success,68.704705 
+2015-12-16 21:04:34,spark,terasort,comnet.sh,bwcache,success,70.349114 
+2015-12-16 21:15:50,spark,terasort,clibquantum.sh,no,success,62.040801 
+2015-12-16 21:19:08,spark,terasort,clibquantum.sh,bw,success,62.752195 
+2015-12-16 21:22:32,spark,terasort,clibquantum.sh,cache,success,67.911382 
+2015-12-16 21:25:57,spark,terasort,clibquantum.sh,bwcache,success,69.660115 
+2015-12-16 21:29:14,spark,terasort,clibquantum.sh,no,success,61.332860 
+2015-12-16 21:32:31,spark,terasort,clibquantum.sh,bw,success,61.863992 
+2015-12-16 21:35:58,spark,terasort,clibquantum.sh,cache,success,71.436862 
+2015-12-16 21:39:26,spark,terasort,clibquantum.sh,bwcache,success,71.665551 
+2015-12-16 21:42:43,spark,terasort,clibquantum.sh,no,success,61.647652 
+2015-12-16 21:46:02,spark,terasort,clibquantum.sh,bw,success,62.935585 
+2015-12-16 21:49:26,spark,terasort,clibquantum.sh,cache,success,69.341212 
+2015-12-16 21:52:52,spark,terasort,clibquantum.sh,bwcache,success,70.328957 
+2015-12-16 23:33:34,flink,terasort,clibquantum.sh,no,success,80.263273 
+2015-12-16 23:37:15,flink,terasort,clibquantum.sh,bw,success,89.008719 
+2015-12-16 23:42:39,flink,terasort,clibquantum.sh,cache,success,191.659694 
+2015-12-16 23:47:52,flink,terasort,clibquantum.sh,bwcache,success,181.862701 
+2015-12-16 23:51:19,flink,terasort,clibquantum.sh,no,success,74.814774 
+2015-12-16 23:55:00,flink,terasort,clibquantum.sh,bw,success,88.967183 
+2015-12-17 00:00:12,flink,terasort,clibquantum.sh,cache,success,181.062907 
+2015-12-17 00:05:27,flink,terasort,clibquantum.sh,bwcache,success,183.688656 
+2015-12-17 00:08:55,flink,terasort,clibquantum.sh,no,success,76.346213 
+2015-12-17 00:12:31,flink,terasort,clibquantum.sh,bw,success,83.988078 
+2015-12-17 00:17:48,flink,terasort,clibquantum.sh,cache,success,185.294180 
+2015-12-17 00:22:11,flink,terasort,clibquantum.sh,bwcache,success,131.616648 

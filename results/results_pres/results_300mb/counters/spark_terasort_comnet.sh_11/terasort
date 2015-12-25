@@ -1,0 +1,74 @@
+# started on Wed Dec 16 21:03:24 2015
+
+86097183,cache-references
+24850840,cache-misses
+7504226747,instructions
+8894331370,cycles
+4875120895,stalled-cycles-frontend
+3292659429,stalled-cycles-backend
+162401284,dtlb_misses_walk_cycles
+7359211987,inst_retired_any_p
+114161213,l2_lines_in_any
+10785672,LLC-prefetches
+# started on Wed Dec 16 21:03:36 2015
+
+34453214,cache-references
+10707450,cache-misses
+2306960124,instructions
+3032495207,cycles
+1791551833,stalled-cycles-frontend
+1194450801,stalled-cycles-backend
+111542631,dtlb_misses_walk_cycles
+2181260134,inst_retired_any_p
+38344385,l2_lines_in_any
+2988748,LLC-prefetches
+# started on Wed Dec 16 21:03:47 2015
+
+1553807,cache-references
+545263,cache-misses
+169260742,instructions
+114717188,cycles
+59631600,stalled-cycles-frontend
+39462614,stalled-cycles-backend
+1755767,dtlb_misses_walk_cycles
+201149180,inst_retired_any_p
+1830862,l2_lines_in_any
+886236,LLC-prefetches
+# started on Wed Dec 16 21:03:59 2015
+
+34723634,cache-references
+12350958,cache-misses
+3027145890,instructions
+2821355200,cycles
+1452136962,stalled-cycles-frontend
+896682005,stalled-cycles-backend
+80221081,dtlb_misses_walk_cycles
+3322237358,inst_retired_any_p
+47700585,l2_lines_in_any
+21428264,LLC-prefetches
+# started on Wed Dec 16 21:04:10 2015
+
+<not counted>,cache-references
+<not counted>,cache-misses
+<not counted>,instructions
+<not counted>,cycles
+<not counted>,stalled-cycles-frontend
+<not counted>,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Wed Dec 16 21:04:22 2015
+
+<not counted>,cache-references
+<not counted>,cache-misses
+<not counted>,instructions
+<not counted>,cycles
+<not counted>,stalled-cycles-frontend
+<not counted>,stalled-cycles-backend
+<not counted>,dtlb_misses_walk_cycles
+<not counted>,inst_retired_any_p
+<not counted>,l2_lines_in_any
+<not counted>,LLC-prefetches
+# started on Wed Dec 16 21:04:33 2015
+

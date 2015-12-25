@@ -1,0 +1,84 @@
+# started on Wed Dec 16 18:12:04 2015
+
+361929472,cache-references
+228088060,cache-misses
+33000092746,instructions
+62195604338,cycles
+49330428448,stalled-cycles-frontend
+34888334740,stalled-cycles-backend
+268699530,dtlb_misses_walk_cycles
+32920517635,inst_retired_any_p
+811489789,l2_lines_in_any
+445667097,LLC-prefetches
+# started on Wed Dec 16 18:12:16 2015
+
+407128292,cache-references
+314651467,cache-misses
+22891594934,instructions
+57670774981,cycles
+49010446729,stalled-cycles-frontend
+36776528998,stalled-cycles-backend
+123662062,dtlb_misses_walk_cycles
+23104013711,inst_retired_any_p
+802243163,l2_lines_in_any
+416291543,LLC-prefetches
+# started on Wed Dec 16 18:12:28 2015
+
+296976608,cache-references
+235020225,cache-misses
+25237310526,instructions
+58528513159,cycles
+48978103077,stalled-cycles-frontend
+34763304770,stalled-cycles-backend
+144774170,dtlb_misses_walk_cycles
+24822555138,inst_retired_any_p
+727859983,l2_lines_in_any
+431187900,LLC-prefetches
+# started on Wed Dec 16 18:12:40 2015
+
+262515293,cache-references
+217308665,cache-misses
+21772901254,instructions
+48685035740,cycles
+41258970886,stalled-cycles-frontend
+29612882463,stalled-cycles-backend
+116782219,dtlb_misses_walk_cycles
+22233206413,inst_retired_any_p
+690168220,l2_lines_in_any
+427304754,LLC-prefetches
+# started on Wed Dec 16 18:12:51 2015
+
+267112430,cache-references
+213032741,cache-misses
+22165792020,instructions
+49526594338,cycles
+41835351913,stalled-cycles-frontend
+30313714165,stalled-cycles-backend
+114311210,dtlb_misses_walk_cycles
+21850713853,inst_retired_any_p
+687265561,l2_lines_in_any
+428377174,LLC-prefetches
+# started on Wed Dec 16 18:13:03 2015
+
+279215625,cache-references
+217074496,cache-misses
+38597222618,instructions
+58119078574,cycles
+45066225438,stalled-cycles-frontend
+30185759278,stalled-cycles-backend
+385965471,dtlb_misses_walk_cycles
+38402766880,inst_retired_any_p
+706426696,l2_lines_in_any
+432433033,LLC-prefetches
+# started on Wed Dec 16 18:13:14 2015
+
+413864176,cache-references
+242863055,cache-misses
+32848985803,instructions
+60934607170,cycles
+48840277566,stalled-cycles-frontend
+35531134040,stalled-cycles-backend
+479552099,dtlb_misses_walk_cycles
+33298896811,inst_retired_any_p
+876884837,l2_lines_in_any
+450357978,LLC-prefetches
