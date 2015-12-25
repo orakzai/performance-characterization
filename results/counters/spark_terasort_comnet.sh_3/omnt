@@ -1,0 +1,36 @@
+# started on Tue Dec 15 13:39:19 2015
+
+806534812,cache-references
+508353956,cache-misses
+31685174402,instructions
+57483742605,cycles
+41416023651,stalled-cycles-frontend
+28235052485,stalled-cycles-backend
+6556864921,dtlb_misses_walk_cycles
+31719236437,inst_retired_any_p
+900855702,l2_lines_in_any
+96716329,LLC-prefetches
+# started on Tue Dec 15 13:39:30 2015
+
+793529204,cache-references
+500668416,cache-misses
+32110794339,instructions
+57961702843,cycles
+41683628374,stalled-cycles-frontend
+28491131736,stalled-cycles-backend
+6370096719,dtlb_misses_walk_cycles
+31717862225,inst_retired_any_p
+908953513,l2_lines_in_any
+93526465,LLC-prefetches
+# started on Tue Dec 15 13:39:42 2015
+
+796908223,cache-references
+501400359,cache-misses
+31945955357,instructions
+57779853378,cycles
+41384843557,stalled-cycles-frontend
+28149287804,stalled-cycles-backend
+6370830044,dtlb_misses_walk_cycles
+32247839616,inst_retired_any_p
+905541418,l2_lines_in_any
+93987302,LLC-prefetches

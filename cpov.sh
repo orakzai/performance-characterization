@@ -4,6 +4,9 @@ option=$1
 
 #stop the containers first before running others	
 killall povray_base.amd64-m64-gcc43-nn
+#./killspec.sh
+sleep 15 #wait for garbage collector to finish
+
 if [ "$option" == "b" ];
 then 
 	echo "Creating POV on BW "

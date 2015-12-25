@@ -1,5 +1,5 @@
-
 #!/bin/bash
+
 #option is w = wordcount; t = terasort
 option=$1
 
@@ -16,14 +16,21 @@ totalTests=$tests*$runsPerTest
 FLINK_DIR=~/flink
 SPARK_DIR=~/spark/spark-1.5.2-bin-hadoop2.6
 
+LOG_FILE=~/scripts/logs/log
 RESULTS_DIR=~/scripts/results
 HADOOP_DIR=~/hadoop/bin/
+START_FRAMEWORK=''
+STOP_FRAMEWORK=''
 
 if [ "$option3" == "f" ]
 then
-    FRAMEWORK="flink"   #flink, spark
+    FRAMEWORK="flink"   #flink
+    START_FRAMEWORK='startflink.sh'
+    STOP_FRAMEWORK='stopflink.sh'
 else
-    FRAMEWORK="spark"   #flink, spark
+   FRAMEWORK="spark"   #, spark
+     START_FRAMEWORK='startspark.sh'
+    STOP_FRAMEWORK='stopspark.sh'
 fi
 
 APP_NAME="default" #wordcount, terasort
@@ -65,53 +72,87 @@ RESULTS_CSV="${RESULTS_DIR}/results.csv"
 CORUNNER="${CORUNNER}.sh"
 
  declare -A runtime
+ declare -A runtimeSuccess
 
 #stop flink job manager  
 #./build-target/bin/stop-local.sh
 hdfsIp="hdfs://130.237.212.71:54310"
 outputDir="/user/orak/${APP_NAME}/output"
 inputDir="/user/orak/${APP_NAME}"
-inputFile="$inputDir/input"
+inputFile="$inputDir/input9"
 #inputFile="$inputDir/README.txt"
 
+echo "=======================================" >> $LOG_FILE
+echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - ${FRAMEWORK} | ${CORUNNER} | ${APP_NAME} |" >> $LOG_FILE
+
 #empty the output directory
+echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Empty output directory..." >> $LOG_FILE
 $HADOOP_DIR/hadoop fs -rm -r -f -skipTrash  $outputDir/*
-#ssh orak@sky2.it.kth.se $HADOOP_DIR/hadoop fs rm -r $outputDir/*
 
 
-#echo "Running Job Manager"
-#	numactl --physcpubind=1 --membind=1 ./build-target/bin/start-local.sh
-#	sleep 10
-
-echo "Running Application on ${FRAMEWORK}"
 for (( i=0; i<$totalTests; i++))
 do
+    echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Starting ${FRAMEWORK}" >> $LOG_FILE
+    ./$START_FRAMEWORK
+    echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Started ${FRAMEWORK}" >> $LOG_FILE
+    echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Starting ${CORUNNER}" >> $LOG_FILE
+
+    interference='no'
+
     if (($i%($tests) == 0))
     then
         #run normally no interference	
         echo "No interference"
         ./$CORUNNER
-        ssh orak@sky2.it.kth.se 'bash -s'  < $CORUNNER 
+        
+        echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Starting ${CORUNNER} on remote (no interference)" >> $LOG_FILE
+        #ssh orak@sky2.it.kth.se 'bash -s'  < $CORUNNER 
+        ssh -n -f orak@sky2.it.kth.se "sh -c 'cd /home/orak/scripts/; nohup ./$CORUNNER  > foo.out 2>foo.err < /dev/null &'"
+        interference='no'
     elif (($i%($tests) == 1))
     then
         #interference on bw
         ./$CORUNNER b
-        ssh orak@sky2.it.kth.se 'bash -s'  < $CORUNNER b
+        
+        echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Starting ${CORUNNER} on remote (bw)" >> $LOG_FILE
+        #ssh orak@sky2.it.kth.se 'bash -s'  < $CORUNNER b
+        ssh -n -f orak@sky2.it.kth.se "sh -c 'cd /home/orak/scripts/; nohup ./$CORUNNER b > foo.out 2>foo.err < /dev/null &'"
+        interference='bw'
     elif (($i%($tests) == 2))
     then
         #interference on cache
         ./$CORUNNER c
-        ssh orak@sky2.it.kth.se 'bash -s'  < $CORUNNER c
+        
+        echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Starting ${CORUNNER} on remote (cache)" >> $LOG_FILE
+        #ssh orak@sky2.it.kth.se 'bash -s'  < $CORUNNER c
+        ssh -n -f orak@sky2.it.kth.se "sh -c 'cd /home/orak/scripts/; nohup ./$CORUNNER c > foo.out 2>foo.err < /dev/null &'"
+        interference='cache'
     elif (($i%($tests) == 3))
     then
         #interference on bw + cache
         ./$CORUNNER a
-        ssh orak@sky2.it.kth.se 'bash -s'  < $CORUNNER a
+        
+        echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Starting ${CORUNNER} on remote (bwcache)" >> $LOG_FILE
+        #ssh orak@sky2.it.kth.se 'bash -s'  < $CORUNNER a
+        ssh -n -f orak@sky2.it.kth.se "sh -c 'cd /home/orak/scripts/; nohup ./$CORUNNER a > foo.out 2>foo.err < /dev/null &'"
+        interference='bwcache'
     fi
+    echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Started ${CORUNNER}. Waiting for 60 seconds..." >> $LOG_FILE
+    
+    sleep 60 # wait here for framework and corrunners to properly start
 
-    echo "...Instance $i..."
+    #start measuring performance counters here - they wait for 5 secs
+    echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Starting performance counters..." >> $LOG_FILE
+    sudo ./measureCounters.sh "$RESULTS_DIR/counters/${FRAMEWORK}_${APP_NAME}_${CORUNNER}_$i/" &
+    echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Starting performance counters on remote..." >> $LOG_FILE
+    #ssh orak@sky2.it.kth.se sudo ~/scripts/measureCounters.sh "$RESULTS_DIR/counters/${FRAMEWORK}_${APP_NAME}_${CORUNNER}_$i/" &
+    ssh -n -f orak@sky2.it.kth.se "sh -c 'cd /home/orak/scripts/; nohup sudo ./measureCounters.sh $RESULTS_DIR/counters/${FRAMEWORK}_${APP_NAME}_${CORUNNER}_$i/ > foo.out 2>foo.err < /dev/null &'"
+   
+    echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Started performance counters" >> $LOG_FILE
+    echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - ...Instance $i..." >> $LOG_FILE
+
     start=$(date +%s.%N)
-
+    #start=$(date +%Y-%m-%d\ %H:%M:%S +%s.%N)
     if [ "$option3" == "f" ]                                                        
     then 
         if [ "$option" == "w" ];
@@ -120,7 +161,7 @@ do
         elif [ "$option" == "t" ];
         then
             numactl --physcpubind=1 --membind=1 $FLINK_DIR/bin/flink run -q -p 2 -m 130.237.212.71:6123 -c eastcircle.terasort.FlinkTeraSort $FLINK_DIR/examples/terasort_2.10-0.0.1.jar $hdfsIp $inputFile $outputDir/$i 1 false false
-         #numactl --physcpubind=1 --membind=1 $FLINK_DIR/bin/flink run -q -p 2 -m 130.237.212.71:6123 $FLINK_DIR/examples/PageRankBasic.jar $inputDir/nodes.txt $inputDir/links.txt $outputDir/$i 10000 10000
+ #numactl --physcpubind=1 --membind=1 $FLINK_DIR/bin/flink run -q -p 2 -m 130.237.212.71:6123 $FLINK_DIR/examples/PageRankBasic.jar $inputDir/nodes.txt $inputDir/links.txt $outputDir/$i 10000 10000
         fi	                                                                           
     else                                                                            
         if [ "$option" == "w" ];
@@ -131,71 +172,117 @@ do
             numactl --physcpubind=1 --membind=1 $SPARK_DIR/bin/spark-submit --master spark://130.237.212.71:7077 --class com.github.ehiggs.spark.terasort.TeraSort $SPARK_DIR/spark-terasort/target/spark-terasort-1.0-SNAPSHOT-jar-with-dependencies.jar $hdfsIp$inputFile $hdfsIp$ouputDir/$i
         fi
     fi                                                                              
-                   
+   
+    # check if application executed successfully
+    if [ "$?" = "0" ];
+    then                                                         
+        runtimeSuccess[$i]='success'
+        echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - SUCCESS $i" >> $LOG_FILE
+    else                                                                        
+        echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - FAILED $i" >> $LOG_FILE
+        runtimeSuccess[$i]='fail'
+    fi
+
     end=$(date +%s.%N)
+    #end=$(date +%Y-%m-%d\ %H:%M:%S +%s.%N)
     runtime[$i]=$(echo "$end - $start" | bc)
 
+    echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Finished  in ${runtime[$i]} seconds" >> $LOG_FILE
+    
+    printf "$(date +%Y-%m-%d\ %H:%M:%S),${FRAMEWORK},${APP_NAME},${CORUNNER},${interference},${runtimeSuccess[$i]},%.6f \n" ${runtime[$i]}   >> $RESULTS_CSV
+    
+    #stop the measure counters process on both sky1 & 2
+    echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Stoping performance counters" >> $LOG_FILE
+    sudo ./stopMeasureCounters.sh
+    echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Stoping performance counters on remote" >> $LOG_FILE
+    ssh -n -f orak@sky2.it.kth.se "sh -c 'cd /home/orak/scripts/; nohup sudo ./stopMeasureCounters.sh > foo.out 2>foo.err < /dev/null &'"
+    
+    echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Stoping ${FRAMEWORK}" >> $LOG_FILE
+    ./$STOP_FRAMEWORK
+
+     #plot the measure counters process on both sky1 & 2
+    echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Plotting performance counters" >> $LOG_FILE
+    sudo ./plotMeasureCounters.sh $RESULTS_DIR/counters/${FRAMEWORK}_${APP_NAME}_${CORUNNER}_$i/
+    echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Plotting performance counters on remote" >> $LOG_FILE
+    ssh -n -f orak@sky2.it.kth.se "sh -c 'cd /home/orak/scripts/; nohup sudo ./plotMeasureCounters.sh $RESULTS_DIR/counters/${FRAMEWORK}_${APP_NAME}_${CORUNNER}_$i/ > foo.out 2>foo.err < /dev/null &'"
+    
+
+    echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Wait 50 seconds for ${FRAMEWORK} to stop... " >> $LOG_FILE
+    sleep 50 #wait for framework to stop
+    
 done
 
 #STOP THE CORUNNERS
+echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Stoping ${CORUNNER}... " >> $LOG_FILE
 ./$CORUNNER
-ssh orak@sky2.it.kth.se 'bash -s' < $CORUNNER
+echo "[$(date +%Y-%m-%d\ %H:%M:%S)] - Stoping ${CORUNNER} on remote... " >> $LOG_FILE
+#ssh orak@sky2.it.kth.se 'bash -s' < $CORUNNER
+ssh -n -f orak@sky2.it.kth.se "sh -c 'cd /home/orak/scripts/; nohup ./$CORUNNER  > foo.out 2>foo.err < /dev/null &'"
 
 #Print formatted times
 avgNormal=0.0
 avgBw=0.0
 avgCache=0.0
-avgCacheBw=0.0
+avgBwCache=0.0
+
+successNormal=0
+successBw=0
+successCache=0
+successBwCache=0
 
 for ((r=0; r<$totalTests; r++))
 do
     interference="no"
-     if (($r%$tests == 0))
+     if [[ $r%$tests == 0 ]] && [[ '${runtimeSuccess[$r]}' == 'success' ]];
     then
         #run normally no interference	
         interference="no"
         avgNormal=$(bc <<< "scale=6;$avgNormal + ${runtime[$r]}")
-    elif (($r%$tests == 1))
+        successNormal=$successNormal + 1
+    elif [[ $r%$tests == 1 ]] && [[ '${runtimeSuccess[$r]}' == 'success' ]];
     then
         #interference on bw
         interference="bw"
         avgBw=$(bc <<< "scale=6;$avgBw + ${runtime[$r]}")
-    elif (($r%$tests == 2))
+        successBw=$successBw + 1
+    elif [[ $r%$tests == 2 ]] && [[ '${runtimeSuccess[$r]}' == 'success' ]];
     then
         #interference on cache
         interference="cache"
         avgCache=$(bc <<< "scale=6;$avgCache + ${runtime[$r]}")
-    elif (($r%$tests == 3))
+        successCache=$successCache + 1
+    elif [[ $r%$tests == 3 ]] && [[ '${runtimeSuccess[$r]}' == 'success' ]];
     then
         #interference on bw + cache
         interference="bwcache"
-        avgCacheBw=$(bc <<< "scale=6;$avgCacheBw + ${runtime[$r]}")
+        avgBwCache=$(bc <<< "scalej;=6;$avgBwCache + ${runtime[$r]}")
+        successBwCache=$successBwCache + 1
     fi
 
-    printf "${FRAMEWORK},${APP_NAME},${CORUNNER},${interference},%.6f \n" ${runtime[$r]}   >> $RESULTS_CSV
-  printf "${FRAMEWORK},${APP_NAME},${CORUNNER},${interference} \t\t - Execution time $r: %.6f seconds\n" ${runtime[$r]} >> $RESULTS_FILE
+    printf "${FRAMEWORK},${APP_NAME},${CORUNNER},${interference},${runtimeSuccess[$r]},%.6f \n" ${runtime[$r]}   >> ${RESULTS_CSV}.bkp
+  printf "${FRAMEWORK},${APP_NAME},${CORUNNER},${interference},${runtimeSuccess[$r]}\t\t\t - Execution time $r: %.6f seconds\n" ${runtime[$r]} >> $RESULTS_FILE
 done
 
-avgNormal=$(bc <<< "scale=6;$avgNormal/$runsPerTest")
-avgBw=$(bc <<< "scale=6;$avgBw/$runsPerTest")
-avgCache=$(bc <<< "scale=6;$avgCache/$runsPerTest")
-avgCacheBw=$(bc <<< "scale=6;$avgCacheBw/$runsPerTest")
+avgNormal=$(bc <<< "scale=6;$avgNormal/$successNormal")
+avgBw=$(bc <<< "scale=6;$avgBw/$successBw")
+avgCache=$(bc <<< "scale=6;$avgCache/$successCache")
+avgBwCache=$(bc <<< "scale=6;$avgBwCache/$successBwCache")
 
 printf "==========================\n" >> $RESULTS_FILE
-printf "Timestamp: [$(date)]\n" >> $RESULTS_FILE
+printf "Timestamp: [$(date +%Y-%m-%d\ %H:%M:%S)]\n" >> $RESULTS_FILE
 printf "==========================\n" >> $RESULTS_FILE
 printf "Average Execution Times ($APP_NAME) ($CORUNNER):\n" >> $RESULTS_FILE
 printf "Normal:\t %.2f seconds\n" $avgNormal >> $RESULTS_FILE
 printf "BW:\t %.2f seconds\n" $avgBw >> $RESULTS_FILE
 printf "Cache:\t %.2f seconds\n" $avgCache >> $RESULTS_FILE
-printf "CacheBW:\t%.2f seconds\n" $avgCacheBw  >> $RESULTS_FILE
+printf "CacheBW:\t%.2f seconds\n" $avgBwCache  >> $RESULTS_FILE
 printf "==========================\n" >> $RESULTS_FILE
 
 printf "Average Degradation ($APP_NAME) ($CORUNNER):\n" >> $RESULTS_FILE
 printf "Normal:\t %.2f %%\n"  $(bc <<< "scale=6;($avgNormal-$avgNormal)*100/$avgNormal") >> $RESULTS_FILE
 printf "BW:\t %.0f %%\n" $(bc <<< "scale=6;($avgBw-$avgNormal)*100/$avgNormal") >> $RESULTS_FILE
 printf "Cache:\t %.2f %%\n" $(bc <<< "scale=6;($avgCache-$avgNormal)*100/$avgNormal") >> $RESULTS_FILE
-printf "CacheBW:\t%.2f %%\n" $(bc <<< "scale=6;($avgCacheBw-$avgNormal)*100/$avgNormal") >> $RESULTS_FILE
+printf "CacheBW:\t%.2f %%\n" $(bc <<< "scale=6;($avgBwCache-$avgNormal)*100/$avgNormal") >> $RESULTS_FILE
 printf "==========================\n" >> $RESULTS_FILE
 
 

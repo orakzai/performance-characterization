@@ -1,0 +1,12 @@
+# started on Tue Dec 15 12:47:39 2015
+
+547346958,cache-references
+425160560,cache-misses
+36234223623,instructions
+58384111894,cycles
+45091808691,stalled-cycles-frontend
+29826763239,stalled-cycles-backend
+509840186,dtlb_misses_walk_cycles
+35447036346,inst_retired_any_p
+928048002,l2_lines_in_any
+388358917,LLC-prefetches

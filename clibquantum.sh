@@ -4,6 +4,9 @@ option=$1
 
 #stop the containers first before running others	
 killall libquantum_base.amd64-m64-gcc43-nn
+#ps aux | grep run_base | grep -v grep | awk '{print $2}' | sudo xargs kill
+sleep 15 # wait for the garbage collector to run
+
 if [ "$option" == "b" ];
 then 
 	echo "Creating libQuantum on BW "
